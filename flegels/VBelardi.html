@@ -1,0 +1,225 @@
+<html>
+<head>
+<title>Designer Staff</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+
+a.ln
+{
+	font-family: "Verdana", Arial, monospace;
+	font-size: 10pt;
+	color: Black;
+}
+
+a.ln:hover
+{
+	font-family: "Verdana", Arial, monospace;
+	font-size: 10pt;
+	color: #660000;	
+}
+
+span.txt
+{
+	font-family: "Verdana", Arial, monospace;
+	font-size: 10pt;
+	color: #660000;
+}
+
+.box
+{
+	border: solid 0px #000000;
+}
+.style8 {font-family: Verdana, Arial, Helvetica, sans-serif}
+.style10 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; }
+
+-->
+</style>
+
+<script language="javascript" type="text/javascript">
+<!--
+
+/*
+ * Program - Link Preview
+ * File Name - link_prev.html
+ * Author - ShuvoRim
+ * Web site - http://www.shuvorim.tk
+ * Email - shuvorim@hotmail.com
+ * (c)ShuvoRim Pvt. Ltd. 2002 - 04
+ * All rights reserved.
+ * ------------------------------
+ * Visit our web site for free open
+ * source Applications, Applets,
+ * Scripts and Games. Please tell
+ * us whether you liked it or not!
+ * Thank you for using our program.
+ */
+
+/*****************************************************
+THIS FUNCTION WILL GENERATE THE PREVIEW. IT TAKES 5
+ARGUMENTS. THE FIRST ARGUMENT IS REQUIRED. OTHERS ARE
+OPTIONAL.
+******************************************************/
+function showPreview(url, border, width, height, desc)
+{
+
+  border = typeof(border) == "undefined" ? 0 : border;
+  width = typeof(width) == "undefined" ? 100 : width;
+  height = typeof(height) == "undefined" ? 100 : height;
+  desc = typeof(desc) == "undefined" ? "" : desc;
+
+  document.getElementById("sp").innerHTML = '<img src="' + url + '" border="' + border + '" width="' + width + '" height="' + height + '"><br>' + desc;
+
+}
+
+
+/***************************************************
+THIS FUNCTION WILL CLEAR THE GENERATED PREVIEW. IT
+DOES NOT TAKE ANY ARGUMENTS.
+****************************************************/
+function clearPreview()
+{
+
+  document.getElementById("sp").innerHTML = "Move you mouse over a link to generate a preview.";
+
+}
+
+//-->
+</script>
+<!-- Fireworks MX Dreamweaver MX target.  Created Thu May 20 12:57:24 GMT-0700 (Pacific Daylight Time) 2004-->
+<script language="JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_nbGroup(event, grpName) { //v6.0
+var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])?args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) { img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr) for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+
+function MM_preloadImages() { //v3.0
+ var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+   var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+   if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+<body bgcolor="#492221" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('images/NavBar_r2_c2_f2.gif','images/NavBar_r2_c2_f3.gif','images/NavBar_r2_c3_f2.gif','images/NavBar_r2_c3_f3.gif','images/NavBar_r2_c4_f3.gif','images/NavBar_r2_c5_f3.gif','images/NavBar_r2_c6_f2.gif','images/NavBar_r2_c6_f3.gif','images/NavBar_r2_c7_f2.gif','images/NavBar_r2_c7_f3.gif','images/NavBar_r2_c3.gif')" link="#000000" vlink="#000000">
+<table border="0" cellpadding="0" cellspacing="0" width="1000">
+<!-- fwtable fwsrc="NavBar.png" fwbase="NavBar.png" fwstyle="Dreamweaver" fwdocid = "742308039" fwnested="0" -->
+  <tr>
+   <td rowspan="2"><img name="NavBar_r1_c1" src="images/NavBar_r1_c1.jpg" width="486" height="107" border="0" alt=""></td>
+   <td colspan="5"><img name="NavBar_r1_c2" src="images/NavBar_r1_c2.jpg" width="514" height="76" border="0" alt=""></td>
+  </tr>
+  <tr>
+    <td><a href="home.html" target="_self" onMouseOut="MM_nbGroup('out');" onMouseOver="MM_nbGroup('over','NavBar_r2_c2','images/NavBar_r2_c2_f2.gif','images/NavBar_r2_c2_f2.gif',1);" onClick="MM_nbGroup('down','navbar1','NavBar_r2_c2','images/NavBar_r2_c2_f2.gif',1);"><img src="images/NavBar_r2_c2.gif" alt="" name="NavBar_r2_c2" border="0" onload="" width="63" height="31"></a></td>
+    <td><a href="about.html" target="_self" onMouseOut="MM_nbGroup('out');" onMouseOver="MM_nbGroup('over','NavBar_r2_c3','images/NavBar_r2_c3_f2.gif','images/NavBar_r2_c3_f2.gif',1);" onClick="MM_nbGroup('down','navbar1','NavBar_r2_c3','images/NavBar_r2_c3_f2.gif',1);"><img src="images/NavBar_r2_c3_f2.gif" alt="" name="NavBar_r2_c3" border="0" onload="MM_nbGroup('init','navbar1','NavBar_r2_c3','images/NavBar_r2_c3.gif',1)" width="121" height="31"></a></td>
+   <td><a href="exclusivestyles.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','images/NavBar_r2_c4_f2Bb.gif',0)"><img src="images/NavBar_r2_c4_f2B.gif" name="Image9" width="158" height="31" border="0"></a></td>
+   <td><a href="events.html" target="_self" onMouseOut="MM_nbGroup('out');" onMouseOver="MM_nbGroup('over','NavBar_r2_c6','images/NavBar_r2_c6_f2.gif','images/NavBar_r2_c6_f2.gif',1);" onClick="MM_nbGroup('down','navbar1','NavBar_r2_c6','images/NavBar_r2_c6_f2.gif',1);"><img name="NavBar_r2_c6" src="images/NavBar_r2_c6.gif" width="70" height="31" border="0" alt=""></a></td>
+   <td><a href="../stockroom/contact.html" target="_self" onMouseOut="MM_nbGroup('out');" onMouseOver="MM_nbGroup('over','NavBar_r2_c7','images/NavBar_r2_c7_f2.gif','images/NavBar_r2_c7_f2.gif',1);" onClick="MM_nbGroup('down','navbar1','NavBar_r2_c7','images/NavBar_r2_c7_f2.gif',1);"><img name="NavBar_r2_c7" src="images/NavBar_r2_c7.gif" width="102" height="31" border="0" alt=""></a></td>
+  </tr>
+  <tr bgcolor="#B59E94"> 
+    <td colspan="6"> <table width="934" height="342" border="0" cellpadding="0" cellspacing="15">
+        <tr> 
+          <td width="286" valign="top" height="326"> 
+            <blockquote> 
+              <table border="0" cellspacing="15" cellpadding="0" width="228">
+                <tr> 
+                  <td width="203">
+                    <p style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+                    <p style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+                    <div align="justify">
+                      <div align="center">
+                        <table border="0" cellpadding="0" width="100%" cellspacing="0">
+                          <tr>
+                            <td width="100%">
+<p align="left" style="margin-top: 0; margin-bottom: 0"><img border="0" src="images/designers/VikkiBelardi.jpg" width="180" height="216"></p>
+<p align="left" style="margin-top: 0; margin-bottom: 0"><font face="Verdana" size="2" color="#800000"><b>Vikki
+Belardi</b></font>
+<p align="left" style="margin-top: 0; margin-bottom: 0"><font face="Verdana" size="2" color="#800000"><b><a href="mailto:vbelardi@flegels.com">vbelardi@flegels.com</a></b></font>
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                  </div></td>
+                </tr>
+              </table>
+            </blockquote></td>
+          <td valign="top" height="326" width="596"><p style="margin-top: 0; margin-bottom: 0"><img border="0" src="images/designstafftitle.gif" width="515" height="108"></p>
+            <div align="center">
+              <center>
+              <table border="0" cellpadding="0" width="100%">
+                <tr>
+                  <td width="24%" valign="top">
+
+<ul type="square">
+
+
+<li>
+  <p style="margin-top: 0; margin-bottom: 0"><a href="http://www.flegels.com/flegels/about.html" onMouseOver="showPreview(&quot;./images/designers/AlParison.jpg&quot;, 0, 180, 216, &quot;Al Parison&quot;);" onMouseOut="clearPreview();" class="ln" title="Browse this category"><font size="2"><span class="style8">Back</span></font></a>
+
+</ul>
+                  </td>
+                  <td width="76%" valign="top"></td>
+                </tr>
+                <tr>
+                  <td width="100%" valign="top" colspan="2">
+
+<p class="style10" style="margin-top: 0; margin-bottom: 0"> &nbsp;
+
+<p align="justify" class="style10" style="margin-top: 0; margin-bottom: 0"> Vikki&rsquo;s design expertise includes interior and fine jewelry design. She owned and operated a home accessories store in Larkspur, CA while continuing her design business. She enriches a client's living space by integrating their personality, need for comfort as well as their existing collectibles. Her background in jewelry design enhances her design and color selections. &ldquo;I enjoy enriching a client's living space by&nbsp;incorporating their personal style,&nbsp;new design and&nbsp;existing treasures.&rdquo; </td>
+                </tr>
+              </table>
+              </center>
+            </div>
+          </td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+   <td colspan="6"><img name="NavBar_r4_c1" src="images/NavBar_r4_c1.jpg" width="1000" height="107" border="0" alt=""></td>
+  </tr>
+</table>
+</body>
+</html>

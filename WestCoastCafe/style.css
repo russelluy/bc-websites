@@ -1,0 +1,54 @@
+body	{
+						margin:0px;
+						padding:0px;
+						background-color:#B8B8B8;
+						font-family:Tahoma;
+						}
+td, div {
+						font-size:11px;
+						font-family:Tahoma;
+						color:#6C6050;
+						line-height:14px;
+						vertical-align:top;
+						}
+
+.bg_main_gum	{
+						background-image: url(images/bg_left_gum.gif);
+						background-position: left top;
+						background-repeat: repeat;
+						}																	
+.bg_left_gum	{
+						background-image: url(images/bg_left_gum.gif);
+						background-position: right top;
+						background-repeat: repeat;
+						}
+.bg_right_gum	{
+						background-image: url(images/bg_right_gum.gif);
+						background-position: left top;
+						background-repeat: repeat;
+						}
+.bg_left	{
+						background-image: url(images/bg_left.gif);
+						background-position: right top;
+						background-repeat: repeat-x;
+						}
+.bg_right_bott	{
+						background-image: url(images/bg_right_bott.gif);
+						background-position: left top;
+						background-repeat: repeat;
+						}	
+.bg_left_bott	{
+						background-image: url(images/bg_left_bott.gif);
+						background-position: right top;
+						background-repeat: repeat;
+						}
+.bg_right	{
+						background-image: url(images/bg_right.gif);
+						background-position: left top;
+						background-repeat: repeat-x;
+						}											
+#class_1  {
+						border:9px solid #ffffff;
+						border-bottom:0px;
+						border-top:0px;
+						}						

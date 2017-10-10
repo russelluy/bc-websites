@@ -1,0 +1,285 @@
+.bodylink {
+	FONT-SIZE: 10px; COLOR: #434b61; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.bodylink1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #434b61; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.bodylink:link {
+	FONT-SIZE: 10px; COLOR: #434b61; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.bodylink:visited {
+	FONT-SIZE: 10px; COLOR: #434b61; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.bodylink:active {
+	FONT-SIZE: 10px; COLOR: #434b61; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.bodylink:hover {
+	FONT-SIZE: 10px; COLOR: #434b61; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A.back:link {
+	FONT-SIZE: 10px; COLOR: #990033; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A.back:visited {
+	FONT-SIZE: 10px; COLOR: #990033; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A.back:active {
+	FONT-SIZE: 10px; COLOR: #990033; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A.back:hover {
+	FONT-SIZE: 10px; COLOR: #990033; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.next:link {
+	FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A.next:visited {
+	FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A.next:active {
+	FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A.next:hover {
+	FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.footer:link {
+	FONT-SIZE: 10px; COLOR: #eeeeee; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A.footer:visited {
+	FONT-SIZE: 10px; COLOR: #eeeeee; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A.footer:active {
+	FONT-SIZE: 10px; COLOR: #eeeeee; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A.footer:hover {
+	FONT-SIZE: 10px; COLOR: #eeeeee; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+P {
+	FONT-SIZE: 10px; COLOR: #434b61; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.body {
+	FONT-SIZE: 10px; COLOR: #434b61; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.body2 {
+	FONT-SIZE: 11px; COLOR: #434b61; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.body1 {
+	FONT-SIZE: 12px; COLOR: #434b61; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.bodypagination {
+	FONT-SIZE: 12px; COLOR: #434b61; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.bodypagination:hover {
+	FONT-SIZE: 12px; COLOR: #434b61; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.bodypagination:link {
+	FONT-SIZE: 12px; COLOR: #434b61; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.bodypagination:visited {
+	FONT-SIZE: 12px; COLOR: #434b61; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.bodypagination:active {
+	FONT-SIZE: 12px; COLOR: #434b61; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; SCROLLBAR-FACE-COLOR: #00648B; PADDING-BOTTOM: 0px; MARGIN: 0px; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #ffffff; SCROLLBAR-3DLIGHT-COLOR: #d4d6df; SCROLLBAR-ARROW-COLOR: #ffffff; PADDING-TOP: 0px; SCROLLBAR-TRACK-COLOR: #d4d6df; SCROLLBAR-DARKSHADOW-COLOR: #00648B; BACKGROUND-COLOR: #00648B
+}
+.copyright {
+	FONT-SIZE: 9px; COLOR: #ffffff; PADDING-TOP: 22px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.footer {
+	FONT-SIZE: 9px; COLOR: #999999; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.introtext {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.subtitles {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #333366; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.title_big {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #333366; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.textinput {
+	BORDER-RIGHT: #333366 1px solid; BORDER-TOP: #333366 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #333366 1px solid; BORDER-BOTTOM: #333366 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #eeeeee
+}
+.logininput {
+	FONT-SIZE: 11px; COLOR: #333366; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.submitbuts {
+	BORDER-RIGHT: #333333 1px solid; BORDER-TOP: #333333 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #333333 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #333333 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #73798c
+}
+.homesubmitbuts {
+	BORDER-RIGHT: #333333 1px solid; BORDER-TOP: #333333 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #333333 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #333333 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #73798c
+}
+.bodybg {
+	BACKGROUND-POSITION: left top; BACKGROUND-IMAGE: url(../images/bodtbg.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: #d4d7e0
+}
+.placeholder {
+	FONT-SIZE: 14px; COLOR: #434b61; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+H1 {
+	FONT-SIZE: 10px; COLOR: #dddddd; LINE-HEIGHT: 14px; MARGIN-RIGHT: 17px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WORD-SPACING: normal; FONT: 10px/12px Verdana, Arial, Helvetica, sans-serif; COLOR: #434b61; PADDING-TOP: 0px; WHITE-SPACE: normal; LETTER-SPACING: normal; TEXT-DECORATION: none
+}
+.placeholderinput {
+	BORDER-RIGHT: #333333 1px solid; BORDER-TOP: #333333 1px solid; FONT-SIZE: 14px; BORDER-LEFT: #333333 1px solid; COLOR: #434b61; BORDER-BOTTOM: #333333 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.placeholderinputgrey {
+	BORDER-RIGHT: #333333 1px solid; BORDER-TOP: #333333 1px solid; FONT-SIZE: 14px; BORDER-LEFT: #333333 1px solid; COLOR: #434b61; BORDER-BOTTOM: #333333 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #999999
+}
+.invlink:link {
+	COLOR: #434b61; TEXT-DECORATION: none
+}
+.invlink:visited {
+	COLOR: #434b61; TEXT-DECORATION: none
+}
+.invlink:active {
+	COLOR: #434b61; TEXT-DECORATION: none
+}
+.invlink:hover {
+	COLOR: #434b61; TEXT-DECORATION: none
+}
+.homebullets {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 6px
+}
+.homeul {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 20px
+}
+.ooga {
+	VERTICAL-ALIGN: top
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.homesearch {
+	BORDER-RIGHT: #333333 1px solid; BORDER-TOP: #333333 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #333333 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #333333 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #73798c
+}
+.boldbody {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #434b61; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.redtext {
+	FONT-SIZE: 10px; COLOR: #993300; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.redbig {
+	FONT-SIZE: 14px; COLOR: #ff0000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.redmedium {
+	FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.redmedium:link {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.invlink:visited {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.invlink:active {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.redmedium:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.tableborderdomain {
+	BORDER-RIGHT: #a8b3d1 1px solid; BORDER-TOP: #a8b3d1 1px solid; BORDER-LEFT: #a8b3d1 1px solid; BORDER-BOTTOM: #a8b3d1 1px solid
+}
+#divNewsCont {
+	VISIBILITY: hidden; OVERFLOW: hidden; WIDTH: 350px; CLIP: rect(0px 350px 48px 0px); POSITION: relative; HEIGHT: 48px
+}
+#divNews {
+	POSITION: relative
+}
+A.info {
+	FONT-SIZE: 11px; Z-INDEX: 24; COLOR: #000033; FONT-FAMILY: Arial, Helvetica, sans-serif; POSITION: relative; TEXT-DECORATION: none
+}
+A.info:hover {
+	Z-INDEX: 25; BACKGROUND-COLOR: #dee7eb
+}
+A.info SPAN {
+	DISPLAY: none
+}
+A.info:hover SPAN {
+	BORDER-RIGHT: #b2b2b2 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #b2b2b2 1px solid; DISPLAY: block; PADDING-LEFT: 2px; LEFT: 2em; PADDING-BOTTOM: 2px; BORDER-LEFT: #b2b2b2 1px solid; WIDTH: 15em; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #b2b2b2 1px solid; POSITION: absolute; TOP: 2em; TEXT-ALIGN: left
+}
+A.infos {
+	FONT-SIZE: 10px; Z-INDEX: 24; COLOR: #434b61; FONT-FAMILY: Verdana,Arial, Helvetica, sans-serif; POSITION: relative; TEXT-DECORATION: none
+}
+A.infos:hover {
+	Z-INDEX: 25; BACKGROUND-COLOR: #d2d5de; TEXT-DECORATION: underline
+}
+A.infos SPAN {
+	DISPLAY: none
+}
+A.infos:hover SPAN {
+	BORDER-RIGHT: #b2b2b2 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #b2b2b2 1px solid; DISPLAY: block; PADDING-LEFT: 4px; LEFT: 2em; PADDING-BOTTOM: 4px; BORDER-LEFT: #b2b2b2 1px solid; WIDTH: 15em; COLOR: #ffffff; PADDING-TOP: 4px; BORDER-BOTTOM: #b2b2b2 1px solid; POSITION: absolute; TOP: 2em; BACKGROUND-COLOR: #434b61; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+B {
+	FONT-WEIGHT: normal; FONT-STYLE: normal; FONT-VARIANT: normal
+}
+A.infoss {
+	FONT-SIZE: 10px; Z-INDEX: 24; COLOR: #434b61; FONT-FAMILY: Verdana,Arial, Helvetica, sans-serif; POSITION: relative; TEXT-DECORATION: none
+}
+A.infoss:hover {
+	Z-INDEX: 25; BACKGROUND-COLOR: #d2d5de; TEXT-DECORATION: underline
+}
+A.infoss SPAN {
+	DISPLAY: none
+}
+A.infoss:hover SPAN {
+	BORDER-RIGHT: #b2b2b2 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #b2b2b2 1px solid; DISPLAY: block; PADDING-LEFT: 2px; LEFT: 2em; PADDING-BOTTOM: 2px; BORDER-LEFT: #b2b2b2 1px solid; WIDTH: 15em; COLOR: #ffffff; PADDING-TOP: 2px; BORDER-BOTTOM: #b2b2b2 1px solid; POSITION: absolute; TOP: 2em; BACKGROUND-COLOR: #434b61; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.titleaqua {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #01adef; FONT-FAMILY: Verdana,Arial, Helvetica, sans-serif
+}
+.submitbutton {
+	BORDER-RIGHT: #333333 1px solid; BORDER-TOP: #333333 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #333333 1px solid; COLOR: #000000; BORDER-BOTTOM: #333333 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #efefef
+}
+.textlink {
+	FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.textlink:hover {
+	FONT-SIZE: 11px; COLOR: #000033; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.img_border {
+	BORDER-RIGHT: #333366 1px solid; BORDER-TOP: #333366 1px solid; BORDER-LEFT: #333366 1px solid; BORDER-BOTTOM: #333366 1px solid
+}
+.avayaul {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.avayali {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; FONT-WEIGHT: normal; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../images/round_bullet.gif); VERTICAL-ALIGN: middle; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+A.callinfo {
+	FONT-SIZE: 10px; Z-INDEX: 24; COLOR: #434b61; FONT-FAMILY: Verdana,Arial, Helvetica, sans-serif; POSITION: relative; TEXT-DECORATION: none
+}
+A.callinfo:hover {
+	Z-INDEX: 25; BACKGROUND-COLOR: #d2d5de; TEXT-DECORATION: underline
+}
+A.callinfo SPAN {
+	DISPLAY: none
+}
+A.callinfo:hover SPAN {
+	BORDER-RIGHT: #b2b2b2 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #b2b2b2 1px solid; DISPLAY: block; PADDING-LEFT: 2px; LEFT: 2em; PADDING-BOTTOM: 2px; BORDER-LEFT: #b2b2b2 1px solid; WIDTH: 15em; COLOR: #ffffff; PADDING-TOP: 2px; BORDER-BOTTOM: #b2b2b2 1px solid; POSITION: absolute; TOP: 6em; BACKGROUND-COLOR: #434b61; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+A.callinfohome {
+	FONT-SIZE: 10px; Z-INDEX: 24; COLOR: #434b61; FONT-FAMILY: Verdana,Arial, Helvetica, sans-serif; POSITION: relative; TEXT-DECORATION: none
+}
+A.callinfohome:hover {
+	Z-INDEX: 25; BACKGROUND-COLOR: #d2d5de; TEXT-DECORATION: underline
+}
+A.callinfohome SPAN {
+	DISPLAY: none
+}
+A.callinfohome:hover SPAN {
+	BORDER-RIGHT: #b2b2b2 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #b2b2b2 1px solid; DISPLAY: block; PADDING-LEFT: 2px; LEFT: -19em; PADDING-BOTTOM: 2px; BORDER-LEFT: #b2b2b2 1px solid; WIDTH: 15em; COLOR: #ffffff; PADDING-TOP: 2px; BORDER-BOTTOM: #b2b2b2 1px solid; POSITION: absolute; TOP: -2.3em; BACKGROUND-COLOR: #434b61; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+A.pckaqua:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #01adef; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A.pckaqua:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #01adef; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A.pckaqua:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #01adef; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A.pckaqua:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #01adef; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}

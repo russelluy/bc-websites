@@ -1,0 +1,298 @@
+<html>
+<head>
+<title>Nord Appraisal</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- Fireworks MX Dreamweaver MX target.  Created Thu Mar 13 17:18:08 GMT+0800 (Taipei Standard Time) 2003-->
+<script language="JavaScript">
+<!--
+<!--
+
+<!--
+<!--
+function MM_preloadImages() { //v3.0
+ var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+   var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+   if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function YY_checkform() { //v4.66
+//copyright (c)1998,2002 Yaromat.com
+  var args = YY_checkform.arguments; var myDot=true; var myV=''; var myErr='';var addErr=false;var myReq;
+  for (var i=1; i<args.length;i=i+4){
+    if (args[i+1].charAt(0)=='#'){myReq=true; args[i+1]=args[i+1].substring(1);}else{myReq=false}
+    var myObj = MM_findObj(args[i].replace(/\[\d+\]/ig,""));
+    myV=myObj.value;
+    if (myObj.type=='text'||myObj.type=='password'||myObj.type=='hidden'){
+      if (myReq&&myObj.value.length==0){addErr=true}
+      if ((myV.length>0)&&(args[i+2]==1)){ //fromto
+        var myMa=args[i+1].split('_');if(isNaN(myV)||myV<myMa[0]/1||myV > myMa[1]/1){addErr=true}
+      } else if ((myV.length>0)&&(args[i+2]==2)){
+          var rx=new RegExp("^[\\w\.=-]+@[\\w\\.-]+\\.[a-z]{2,4}$");if(!rx.test(myV))addErr=true;
+      } else if ((myV.length>0)&&(args[i+2]==3)){ // date
+        var myMa=args[i+1].split("#"); var myAt=myV.match(myMa[0]);
+        if(myAt){
+          var myD=(myAt[myMa[1]])?myAt[myMa[1]]:1; var myM=myAt[myMa[2]]-1; var myY=myAt[myMa[3]];
+          var myDate=new Date(myY,myM,myD);
+          if(myDate.getFullYear()!=myY||myDate.getDate()!=myD||myDate.getMonth()!=myM){addErr=true};
+        }else{addErr=true}
+      } else if ((myV.length>0)&&(args[i+2]==4)){ // time
+        var myMa=args[i+1].split("#"); var myAt=myV.match(myMa[0]);if(!myAt){addErr=true}
+      } else if (myV.length>0&&args[i+2]==5){ // check this 2
+            var myObj1 = MM_findObj(args[i+1].replace(/\[\d+\]/ig,""));
+            if(myObj1.length)myObj1=myObj1[args[i+1].replace(/(.*\[)|(\].*)/ig,"")];
+            if(!myObj1.checked){addErr=true}
+      } else if (myV.length>0&&args[i+2]==6){ // the same
+            var myObj1 = MM_findObj(args[i+1]);
+            if(myV!=myObj1.value){addErr=true}
+      }
+    } else
+    if (!myObj.type&&myObj.length>0&&myObj[0].type=='radio'){
+          var myTest = args[i].match(/(.*)\[(\d+)\].*/i);
+          var myObj1=(myObj.length>1)?myObj[myTest[2]]:myObj;
+      if (args[i+2]==1&&myObj1&&myObj1.checked&&MM_findObj(args[i+1]).value.length/1==0){addErr=true}
+      if (args[i+2]==2){
+        var myDot=false;
+        for(var j=0;j<myObj.length;j++){myDot=myDot||myObj[j].checked}
+        if(!myDot){myErr+='* ' +args[i+3]+'\n'}
+      }
+    } else if (myObj.type=='checkbox'){
+      if(args[i+2]==1&&myObj.checked==false){addErr=true}
+      if(args[i+2]==2&&myObj.checked&&MM_findObj(args[i+1]).value.length/1==0){addErr=true}
+    } else if (myObj.type=='select-one'||myObj.type=='select-multiple'){
+      if(args[i+2]==1&&myObj.selectedIndex/1==0){addErr=true}
+    }else if (myObj.type=='textarea'){
+      if(myV.length<args[i+1]){addErr=true}
+    }
+    if (addErr){myErr+='* '+args[i+3]+'\n'; addErr=false}
+  }
+  if (myErr!=''){alert('The required information is incomplete or contains errors:\t\t\t\t\t\n\n'+myErr)}
+  document.MM_returnValue = (myErr=='');
+}
+//-->
+</script>
+<link href="nord.css" rel="stylesheet" type="text/css">
+</head>
+<body background="images/lblue076.jpg" leftmargin="0" topmargin="0" onLoad="MM_preloadImages('images/contact02_fw/images/contact02_nord_fw_r2_c9_f2.gif','images/contact02_fw/images/contact02_nord_fw_r3_c9_f2.gif','images/contact02_fw/images/contact02_nord_fw_r4_c9_f2.gif','images/contact02_fw/images/contact02_nord_fw_r5_c9_f2.gif','images/contact02_fw/images/contact02_nord_fw_r6_c9_f2.gif','images/contact02_fw/images/contact02_nord_fw_r7_c9_f2.gif','images/contact02_fw/images/contact02_nord_fw_r17_c3_f2.gif')">
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td valign="top"><div align="center">
+        <table width="550" border="1" cellpadding="0" cellspacing="0" bordercolor="#A5C3EF">
+          <tr>
+            <td valign="top"><table width="720" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                <!-- fwtable fwsrc="contactus_nord_fw.png" fwbase="contact02_nord_fw.gif" fwstyle="Dreamweaver" fwdocid = "742308039" fwnested="0" -->
+                <tr> 
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="21" height="1" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="19" height="1" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="177" height="1" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="15" height="1" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="9" height="1" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="103" height="1" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="36" height="1" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="28" height="1" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="88" height="1" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="12" height="1" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="36" height="1" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="59" height="1" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="10" height="1" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="107" height="1" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="1" height="1" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td rowspan="3" colspan="8"><img name="contact02_nord_fw_r1_c1" src="images/contact02_fw/images/contact02_nord_fw_r1_c1.jpg" width="408" height="45" border="0" alt=""></td>
+                  <td colspan="3"><img name="contact02_nord_fw_r1_c9" src="images/contact02_fw/images/contact02_nord_fw_r1_c9.gif" width="136" height="7" border="0" alt=""></td>
+                  <td rowspan="7" colspan="3"><img name="contact02_nord_fw_r1_c12" src="images/contact02_fw/images/contact02_nord_fw_r1_c12.jpg" width="176" height="131" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="1" height="7" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td colspan="3"><a href="home.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contact02_nord_fw_r2_c9','','images/contact02_fw/images/contact02_nord_fw_r2_c9_f2.gif',1);"><img name="contact02_nord_fw_r2_c9" src="images/contact02_fw/images/contact02_nord_fw_r2_c9.gif" width="136" height="17" border="0" alt=""></a></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="1" height="17" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td colspan="3"><a href="profile.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contact02_nord_fw_r3_c9','','images/contact02_fw/images/contact02_nord_fw_r3_c9_f2.gif',1);"><img name="contact02_nord_fw_r3_c9" src="images/contact02_fw/images/contact02_nord_fw_r3_c9.gif" width="136" height="21" border="0" alt=""></a></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="1" height="21" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td rowspan="3" colspan="8"><img name="contact02_nord_fw_r4_c1" src="images/contact02_fw/images/contact02_nord_fw_r4_c1.jpg" width="408" height="65" border="0" alt=""></td>
+                  <td colspan="3"><a href="product_services.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contact02_nord_fw_r4_c9','','images/contact02_fw/images/contact02_nord_fw_r4_c9_f2.gif',1);"><img name="contact02_nord_fw_r4_c9" src="images/contact02_fw/images/contact02_nord_fw_r4_c9.gif" width="136" height="21" border="0" alt=""></a></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="1" height="21" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td colspan="3"><a href="order.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contact02_nord_fw_r5_c9','','images/contact02_fw/images/contact02_nord_fw_r5_c9_f2.gif',1);"><img name="contact02_nord_fw_r5_c9" src="images/contact02_fw/images/contact02_nord_fw_r5_c9.gif" width="136" height="22" border="0" alt=""></a></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="1" height="22" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td colspan="3"><a href="approved_lenders.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contact02_nord_fw_r6_c9','','images/contact02_fw/images/contact02_nord_fw_r6_c9_f2.gif',1);"><img name="contact02_nord_fw_r6_c9" src="images/contact02_fw/images/contact02_nord_fw_r6_c9.gif" width="136" height="22" border="0" alt=""></a></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="1" height="22" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td colspan="8"><img name="contact02_nord_fw_r7_c1" src="images/contact02_fw/images/contact02_nord_fw_r7_c1.gif" width="408" height="21" border="0" alt=""></td>
+                  <td colspan="3"><a href="contact.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contact02_nord_fw_r7_c9','','images/contact02_fw/images/contact02_nord_fw_r7_c9_f2.gif',1);"><img name="contact02_nord_fw_r7_c9" src="images/contact02_fw/images/contact02_nord_fw_r7_c9.gif" width="136" height="21" border="0" alt=""></a></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="1" height="21" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td colspan="8"><img name="contact02_nord_fw_r8_c1" src="images/contact02_fw/images/contact02_nord_fw_r8_c1.jpg" width="408" height="23" border="0" alt=""></td>
+                  <td colspan="3"><img name="contact02_nord_fw_r8_c9" src="images/contact02_fw/images/contact02_nord_fw_r8_c9.gif" width="136" height="23" border="0" alt=""></td>
+                  <td colspan="3"><img name="contact02_nord_fw_r8_c12" src="images/contact02_fw/images/contact02_nord_fw_r8_c12.jpg" width="176" height="23" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="1" height="23" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td colspan="4"><img name="contact02_nord_fw_r9_c1" src="images/contact02_fw/images/contact02_nord_fw_r9_c1.jpg" width="232" height="56" border="0" alt=""></td>
+                  <td colspan="9"><img name="contact02_nord_fw_r9_c5" src="images/contact02_fw/images/contact02_nord_fw_r9_c5.gif" width="381" height="56" border="0" alt=""></td>
+                  <td><img name="contact02_nord_fw_r9_c14" src="images/contact02_fw/images/contact02_nord_fw_r9_c14.gif" width="107" height="56" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="1" height="56" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td rowspan="5" colspan="4"><img name="contact02_nord_fw_r10_c1" src="images/contact02_fw/images/contact02_nord_fw_r10_c1.jpg" width="232" height="143" border="0" alt=""></td>
+                  <td rowspan="9"><img name="contact02_nord_fw_r10_c5" src="images/contact02_fw/images/contact02_nord_fw_r10_c5.gif" width="9" height="268" border="0" alt=""></td>
+                  <td colspan="4"><img name="contact02_nord_fw_r10_c6" src="images/contact02_fw/images/contact02_nord_fw_r10_c6.gif" width="255" height="41" border="0" alt=""></td>
+                  <td rowspan="6"><img name="contact02_nord_fw_r10_c10" src="images/contact02_fw/images/contact02_nord_fw_r10_c10.gif" width="12" height="177" border="0" alt=""></td>
+                  <td rowspan="6" colspan="4"><img name="contact02_nord_fw_r10_c11" src="images/contact02_fw/images/contact02_nord_fw_r10_c11.gif" width="212" height="177" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="1" height="41" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td rowspan="4" colspan="2"><img name="contact02_nord_fw_r11_c6" src="images/contact02_fw/images/contact02_nord_fw_r11_c6.gif" width="139" height="102" border="0" alt=""></td>
+                  <td colspan="2"><img name="contact02_nord_fw_r11_c8" src="images/contact02_fw/images/contact02_nord_fw_r11_c8.gif" width="116" height="35" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="1" height="35" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td colspan="2"><img name="contact02_nord_fw_r12_c8" src="images/contact02_fw/images/contact02_nord_fw_r12_c8.gif" width="116" height="14" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="1" height="14" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td colspan="2"><img name="contact02_nord_fw_r13_c8" src="images/contact02_fw/images/contact02_nord_fw_r13_c8.gif" width="116" height="38" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="1" height="38" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td colspan="2"><img name="contact02_nord_fw_r14_c8" src="images/contact02_fw/images/contact02_nord_fw_r14_c8.gif" width="116" height="15" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="1" height="15" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td colspan="4"><img name="contact02_nord_fw_r15_c1" src="images/contact02_fw/images/contact02_nord_fw_r15_c1.gif" width="232" height="34" border="0" alt=""></td>
+                  <td><img name="contact02_nord_fw_r15_c6" src="images/contact02_fw/images/contact02_nord_fw_r15_c6.gif" width="103" height="34" border="0" alt=""></td>
+                  <td colspan="3" class="size12"><div align="right"><strong><font color="#336699">Website</font></strong><br>
+                      <a href="http://www.Nordappraisal.com" target="_blank"><font color="#FF9933">www.Nordappraisal.com</font></a></div></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="1" height="34" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td colspan="4"><img name="contact02_nord_fw_r16_c1" src="images/contact02_fw/images/contact02_nord_fw_r16_c1.gif" width="232" height="10" border="0" alt=""></td>
+                  <td colspan="7" rowspan="5" valign="top">
+                    <form name="form1" method="post" action="">
+                      <table width="362">
+                        <tr> 
+                          <td colspan="3">&nbsp;</td>
+                        </tr>
+                        <tr> 
+                          <td colspan="3" class="size15"><strong>Online <font color="#FF9900">Email 
+                            Form</font></strong></td>
+                        </tr>
+                        <tr> 
+                          <td colspan="3">&nbsp;</td>
+                        </tr>
+                        <tr> 
+                          <td width="62" class="size12"><div align="right">Name:</div></td>
+                          <td width="7">&nbsp;</td>
+                          <td width="277"><input name="name" type="text" id="name" size="35"></td>
+                        </tr>
+                        <tr> 
+                          <td class="size12"><div align="right">Tel. No.:</div></td>
+                          <td>&nbsp;</td>
+                          <td><input name="telno" type="text" id="telno" size="35"></td>
+                        </tr>
+                        <tr> 
+                          <td class="size12"><div align="right">Email:</div></td>
+                          <td>&nbsp;</td>
+                          <td><input name="email" type="text" id="email" size="35"></td>
+                        </tr>
+                        <tr> 
+                          <td class="size12"><div align="right">Subject:</div></td>
+                          <td>&nbsp;</td>
+                          <td><input name="subject" type="text" id="subject" size="35"></td>
+                        </tr>
+                        <tr> 
+                          <td class="size12"><div align="right">Message:</div></td>
+                          <td>&nbsp;</td>
+                          <td><textarea name="message" cols="30" rows="5" id="message"></textarea></td>
+                        </tr>
+                        <tr> 
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td><input name="Submit" type="submit" onClick="YY_checkform('form1','name','#q','0','Field \'NAME\' is BLANK.','email','#S','2','Field \'EMAIL\' is INVALID or BLANK.','subject','#q','0','Field \'subject\' is not valid.','message','5','1','Field \'MESSAGE\' should have at least 5 characters.');return document.MM_returnValue" value="Submit"></td>
+                        </tr>
+                        <tr> 
+                          <td colspan="3" class="size10"><table width="100%" bordercolor="#FF9900">
+                              <tr>
+                                <td class="size10"><div align="right">Nord Appraisal 
+                                    will only use the data collected on this page 
+                                    to answer your query and it will not be shared 
+                                    or used for marketing purposes.</div></td>
+                              </tr>
+                            </table></td>
+                        </tr>
+                        <tr> 
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                        </tr>
+                      </table>
+                    </form></td>
+                  <td rowspan="3"><img name="contact02_nord_fw_r16_c13" src="images/contact02_fw/images/contact02_nord_fw_r16_c13.gif" width="10" height="91" border="0" alt=""></td>
+                  <td rowspan="3"><img name="contact02_nord_fw_r16_c14" src="images/contact02_fw/images/contact02_nord_fw_r16_c14.gif" width="107" height="91" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="1" height="10" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td colspan="2"><img name="contact02_nord_fw_r17_c1" src="images/contact02_fw/images/contact02_nord_fw_r17_c1.gif" width="40" height="28" border="0" alt=""></td>
+                  <td><a href="order.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contact02_nord_fw_r17_c3','','images/contact02_fw/images/contact02_nord_fw_r17_c3_f2.gif',1);"><img name="contact02_nord_fw_r17_c3" src="images/contact02_fw/images/contact02_nord_fw_r17_c3.gif" width="177" height="28" border="0" alt=""></a></td>
+                  <td><img name="contact02_nord_fw_r17_c4" src="images/contact02_fw/images/contact02_nord_fw_r17_c4.gif" width="15" height="28" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="1" height="28" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td colspan="4"><img name="contact02_nord_fw_r18_c1" src="images/contact02_fw/images/contact02_nord_fw_r18_c1.gif" width="232" height="53" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="1" height="53" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td valign="top"><p></p></td>
+                  <td colspan="3"><img name="contact02_nord_fw_r19_c2" src="images/contact02_fw/images/contact02_nord_fw_r19_c2.gif" width="211" height="108" border="0" alt=""></td>
+                  <td rowspan="2"><img name="contact02_nord_fw_r19_c5" src="images/contact02_fw/images/contact02_nord_fw_r19_c5.gif" width="9" height="300" border="0" alt=""></td>
+                  <td rowspan="2"><img name="contact02_nord_fw_r19_c13" src="images/contact02_fw/images/contact02_nord_fw_r19_c13.gif" width="10" height="300" border="0" alt=""></td>
+                  <td rowspan="2" valign="top"><p></p></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="1" height="108" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td colspan="4" valign="top"><p></p></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="1" height="192" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td colspan="4"><img name="contact02_nord_fw_r21_c1" src="images/contact02_fw/images/contact02_nord_fw_r21_c1.gif" width="232" height="22" border="0" alt=""></td>
+                  <td colspan="7"><img name="contact02_nord_fw_r21_c5" src="images/contact02_fw/images/contact02_nord_fw_r21_c5.gif" width="312" height="22" border="0" alt=""></td>
+                  <td colspan="3"><img name="contact02_nord_fw_r21_c12" src="images/contact02_fw/images/contact02_nord_fw_r21_c12.gif" width="176" height="22" border="0" alt=""></td>
+                  <td><img src="images/contact02_fw/images/spacer.gif" width="1" height="22" border="0" alt=""></td>
+                </tr>
+              </table>
+</td>
+          </tr>
+        </table>
+        <p><font color="#00185A" size="1" face="Verdana, Arial, Helvetica, sans-serif">Home 
+          | Profile | Products &amp; Services | Order an Appraisal | Approved 
+          Lenders | Contact Us</font></p>
+      </div></td>
+  </tr>
+</table>
+</body>
+</html>

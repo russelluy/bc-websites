@@ -1,0 +1,66 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+
+<title>What kind of comment would you like to send</title>
+</head>
+
+<body background="images/ledbg.gif" topmargin="0">
+
+<!--webbot BOT="GeneratedScript" PREVIEW=" " startspan --><script Language="JavaScript" Type="text/javascript"><!--
+function FrontPage_Form1_Validator(theForm)
+{
+
+  var checkOK = "0123456789-";
+  var checkStr = theForm.number.value;
+  var allValid = true;
+  var validGroups = true;
+  var decPoints = 0;
+  var allNum = "";
+  for (i = 0;  i < checkStr.length;  i++)
+  {
+    ch = checkStr.charAt(i);
+    for (j = 0;  j < checkOK.length;  j++)
+      if (ch == checkOK.charAt(j))
+        break;
+    if (j == checkOK.length)
+    {
+      allValid = false;
+      break;
+    }
+    allNum += ch;
+  }
+  if (!allValid)
+  {
+    alert("Please enter only digit characters in the \"number\" field.");
+    theForm.number.focus();
+    return (false);
+  }
+  return (true);
+}
+//--></script><!--webbot BOT="GeneratedScript" endspan --><form method="POST" action="_derived/nortbots.htm" onsubmit="location.href='_derived/nortbots.htm';return false;" name="FrontPage_Form1" webbot-action="--WEBBOT-SELF--" language="JavaScript" webbot-onSubmit="return FrontPage_Form1_Validator(this)">
+  <!--webbot bot="SaveResults" startspan
+  S-Email-Address="ricson@engkotrading.com" S-Email-Format="TEXT/PRE" --><input TYPE="hidden" NAME="VTI-GROUP" VALUE="0"><!--webbot
+  bot="SaveResults" endspan i-checksum="43374" --><p style="margin-top: 0; margin-bottom: 0">
+  <strong><font face="Arial" size="2" color="#FFFFFF">Name:<input type="text" name="name" size="20"></font></strong></p>
+  <p style="margin-top: 0; margin-bottom: 0">
+  <strong><font face="Arial" size="2" color="#FFFFFF">Address:<input type="text" name="address" size="20"></font></strong></p>
+  <p style="margin-top: 0; margin-bottom: 0">
+  <strong><font face="Arial" size="2" color="#FFFFFF">Email:<input type="text" name="email" size="20"></font></strong></p>
+  <p style="margin-top: 0; margin-bottom: 0">
+  <strong><font face="Arial" size="2" color="#FFFFFF">Phone number:<!--webbot
+  bot="Validation" S-Data-Type="Integer" S-Number-Separators="x" --><input type="text" name="number" size="20"></font></strong></p>
+  <p style="margin-top: 0; margin-bottom: 0">
+  <input type="submit" value="Order" name="submit"></p>
+  <p style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+  <p style="margin-top: 0; margin-bottom: 0"><strong>
+  <font face="Arial" size="2" color="#FF9900">Please call: 1877- LEDWHEELS</font></strong></p>
+</form>
+
+</body>
+
+</html>

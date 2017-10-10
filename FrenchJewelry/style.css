@@ -1,0 +1,20 @@
+/*††††††††††††††††††-CONSTANT-††††††††††††††††††††††††*/
+body {														  	
+	margin:0px 0px 0px 0px; 				  			 	 
+	padding:0px 0px 0px 0px; 				 			    
+	color:#202020;			 	  						   
+	background-color:#0C0E00;  	 						  
+}													 
+br {line-height:0px;}							        
+img {border:0px;}									   
+td {							       				  
+	font:normal 11px Tahoma, Arial;									 
+	vertical-align:top;				  			  
+	line-height:14px;						 	 
+	padding:0px 0px 0px 0px;		     		
+}										   	   
+table {								 	  	  
+	border-collapse:collapse;			 	 
+	border:0px;						    	
+	padding:0px 0px 0px 0px;			   
+}									  

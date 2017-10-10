@@ -1,0 +1,51 @@
+.bodytext {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: rgb(96,96,77); FONT-FAMILY: arial, verdana, sans-serif; TEXT-DECORATION: none
+}
+A {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: rgb(224,126,39); FONT-FAMILY: arial, verdana, sans-serif; TEXT-DECORATION: underline
+}
+A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: rgb(0,149,213); FONT-FAMILY: arial, verdana, sans-serif; TEXT-DECORATION: none
+}
+A.footer {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: rgb(96,96,77); FONT-FAMILY: arial, verdana, sans-serif; TEXT-DECORATION: none
+}
+A.footer:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: rgb(0,149,213); FONT-FAMILY: arial, verdana, sans-serif; TEXT-DECORATION: underline
+}
+BODY.servicesbg {
+	BACKGROUND-IMAGE: url(../images/mainbg3.jpg); BACKGROUND-REPEAT: no-repeat
+}
+BODY.homebg {
+	BACKGROUND-IMAGE: url(../images/int_about_bg.jpg); BACKGROUND-REPEAT: no-repeat
+}
+BODY.contactbg {
+	BACKGROUND-IMAGE: url(../images/mainbg4.jpg); BACKGROUND-REPEAT: no-repeat
+}
+BODY.aboutbg {
+	BACKGROUND-IMAGE: url(../images/mainbg2.jpg); BACKGROUND-REPEAT: no-repeat
+}
+BODY.gallerybg {
+	BACKGROUND-IMAGE: url(../images/mainbg6.jpg); BACKGROUND-REPEAT: no-repeat
+}
+BODY.morebg {
+	BACKGROUND-IMAGE: url(../images/mainbgblank.jpg); BACKGROUND-REPEAT: no-repeat
+}
+BODY.more2bg {
+	BACKGROUND-IMAGE: url(../images/mainbgblank2.jpg); BACKGROUND-REPEAT: no-repeat
+}
+TD {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: rgb(96,96,77); FONT-FAMILY: arial, verdana, sans-serif; TEXT-DECORATION: none
+}
+P.bodydoublespaced {
+	MARGIN-TOP: 0px; FONT-SIZE: 11px; MARGIN-BOTTOM: 14px; COLOR: rgb(96,96,77); LINE-HEIGHT: 16px; FONT-FAMILY: arial, verdana, sans-serif; TEXT-DECORATION: none
+}
+.boldblue {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: rgb(0,149,213); FONT-FAMILY: arial, verdana, sans-serif; TEXT-DECORATION: none
+}
+.formbox {
+	BORDER-RIGHT: silver 1px solid; BORDER-TOP: silver 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 11px; BORDER-LEFT: silver 1px solid; COLOR: rgb(33,33,33); BORDER-BOTTOM: silver 1px solid; FONT-FAMILY: arial, verdana, sans-serif; TEXT-DECORATION: none
+}
+.formbutton {
+	FONT-SIZE: 11px; COLOR: rgb(33,33,33); FONT-FAMILY: arial, verdana, sans-serif; TEXT-DECORATION: none
+}

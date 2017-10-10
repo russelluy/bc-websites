@@ -1,0 +1,47 @@
+
+http://localhost/beancastle.net/hitech%20web/about.html::12391::About Page:: Search the site Gallery | Faq | Contact Us Home About the Company Hardwood Flooring Services Flooring Selections Home Improvement Services Gallery Frequently Asked Question Contact Us Free Estimate Request Consultation COMPANY OVERVIEW Everything you want
+http://localhost/beancastle.net/hitech%20web/contact.html::18426::Contact Page:: Search the site Gallery | Faq | Contact Us Home About the Company Hardwood Flooring Services Flooring Selections Home Improvement Services Gallery Frequently Asked Question Contact Us Free Estimate Request Consultation CONTACT US SHOWROOM LOCATION Everyth
+http://localhost/beancastle.net/hitech%20web/digg/common_lib.php::7335::No title:: > 24; }; $h &= ~$g; } return $h; } #===================================================================== # # Function getmicrotime() # Last modified: 16.04.2004 17:54 # #===================================================================== function getmi
+http://localhost/beancastle.net/hitech%20web/digg/config.php::8862::No title:: 100Mb $site_size = 4; # Path to index database files $HASH = "db/0_hash"; $HASHWORDS = "db/0_hashwords"; $FINFO = "db/0_finfo"; $SITEWORDS = "db/0_sitewords"; $WORD_IND = "db/0_word_ind"; #==================================================================
+http://localhost/beancastle.net/hitech%20web/digg/::3971::No title:: \n"; print "\$base_dir: $base_dir \n"; print "\$base_url: $base_url \n"; #DEFINE CONSTANTS $cfn = 0; $cwn = 0; $kbcount = 0; if(!is_dir("db")) { mkdir("db",0755) or die("Can't create directory DB!!!"); echo"Directory 'db' has been created"; } $fp_FINFO = 
+http://localhost/beancastle.net/hitech%20web/digg/search.php::12535::No title:: 0) { get_results(); $time3 = getmicrotime(); $time = $time3-$time1; # print " get_results() took $time sec. "; boolean(); $time4 = getmicrotime(); $time = $time4-$time3; $search_time = $time4-$time1; $search_time = sprintf("%2.4f", $search_time); # print 
+http://localhost/beancastle.net/hitech%20web/digg/spider.php::6845::No title:: \n"; #DEFINE CONSTANTS $cfn = 0; $cwn = 0; $kbcount = 0; if(!is_dir("db")) { mkdir("db",0755) or die("Can't create directory DB!!!"); echo"Directory 'db' has been created"; } $fp_FINFO = fopen ("$FINFO", "wb") or die("Can't open index file!"); fwrite($fp_
+http://localhost/beancastle.net/hitech%20web/digg/template.htm::2035::RiSearch results:: Search mode: "AND" "OR" Query: %query% Search time: %search_time% sec. Found: %query_statistics% %url% %title% (%size% b) %description% Found %rescount% files. %next_results% Query: %query% Search time: %search_time% Found 0 files. Enter query Powered by 
+http://localhost/beancastle.net/hitech%20web/digg/template.html::13510::Faq Page:: Search the site Gallery | Faq | Contact Us Home About the Company Hardwood Flooring Services Flooring Selections Home Improvement Services Gallery Frequently Asked Question Contact Us Free Estimate Request Consultation Seacrch Results for Query: %query% S
+http://localhost/beancastle.net/hitech%20web/faq.html::22043::Faq Page:: Search the site Gallery | Faq | Contact Us Home About the Company Hardwood Flooring Services Flooring Selections Home Improvement Services Gallery Frequently Asked Question Contact Us Free Estimate Request Consultation Answers to common questions Carpet F
+http://localhost/beancastle.net/hitech%20web/gallery.html::10162::Gallery Page:: Search the site Gallery | Faq | Contact Us Home About the Company Hardwood Flooring Services Flooring Selections Home Improvement Services Gallery Frequently Asked Question Contact Us Free Estimate Request Consultation Request Consultation San Francisco 4
+http://localhost/beancastle.net/hitech%20web/home.html::13010::Main Page:: Search the site Gallery | Faq | Contact Us Home About the Company Hardwood Flooring Services Flooring Selections Home Improvement Services Gallery Frequently Asked Question Contact Us Free Estimate Request Consultation Hardwood Flooring - Done Right. One 
+http://localhost/beancastle.net/hitech%20web/improvement.html::11490::Improvement Page:: Search the site Gallery | Faq | Contact Us Home About the Company Hardwood Flooring Services Flooring Selections Home Improvement Services Gallery Frequently Asked Question Contact Us Free Estimate Request Consultation KITCHEN DESIGN (Under Construction) 
+http://localhost/beancastle.net/hitech%20web/::1658::Index Intro Page:: SKIP INTRO 
+http://localhost/beancastle.net/hitech%20web/pages/100.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/104.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/106.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/112.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/117.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/120.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/129.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/132.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/135.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/141.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/143.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/71.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/85.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/89.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/91.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/American_Cherry.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/Bamboo_Horizontal_Carbonized.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/Bamboo_Horizontal_Natural.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/Bamboo_Vertical_Carbonized.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/Bamboo_vertical_Natural.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/Brazilian_Cherry.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/Brazilian_Wallnut.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/Maple.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/Red_Oak.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/Santos_Mahogany.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/Southern_Chesnut.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/Wallnut.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/Wenge.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/pages/White_Oak.htm::0::No title::
+http://localhost/beancastle.net/hitech%20web/selections.html::25880::Selections Page:: Search the site Gallery | Faq | Contact Us Home About the Company Hardwood Flooring Services Flooring Selections Home Improvement Services Gallery Frequently Asked Question Contact Us Free Estimate Request Consultation HARDWOOD Natural beauty, Timeless El
+http://localhost/beancastle.net/hitech%20web/services.html::17169::Services Page:: Search the site Gallery | Faq | Contact Us Home About the Company Hardwood Flooring Services Flooring Selections Home Improvement Services Gallery Frequently Asked Question Contact Us Free Estimate Request Consultation PROFESSIONAL INSTALLATION A satisfyi
+http://localhost/beancastle.net/hitech%20web/UserSelections.txt::36::No title::75 1 400 8 0 0 36 0 100 0 0 0 0 0 0 

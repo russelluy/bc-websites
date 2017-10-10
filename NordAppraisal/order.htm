@@ -1,0 +1,549 @@
+<html>
+<head>
+<title>Nord Appraisal</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- Fireworks MX Dreamweaver MX target.  Created Thu Mar 13 17:18:08 GMT+0800 (Taipei Standard Time) 2003-->
+<script language="JavaScript">
+<!--
+<!--
+
+<!--
+<!--
+function MM_preloadImages() { //v3.0
+ var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+   var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+   if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function YY_checkform() { //v4.66
+//copyright (c)1998,2002 Yaromat.com
+  var args = YY_checkform.arguments; var myDot=true; var myV=''; var myErr='';var addErr=false;var myReq;
+  for (var i=1; i<args.length;i=i+4){
+    if (args[i+1].charAt(0)=='#'){myReq=true; args[i+1]=args[i+1].substring(1);}else{myReq=false}
+    var myObj = MM_findObj(args[i].replace(/\[\d+\]/ig,""));
+    myV=myObj.value;
+    if (myObj.type=='text'||myObj.type=='password'||myObj.type=='hidden'){
+      if (myReq&&myObj.value.length==0){addErr=true}
+      if ((myV.length>0)&&(args[i+2]==1)){ //fromto
+        var myMa=args[i+1].split('_');if(isNaN(myV)||myV<myMa[0]/1||myV > myMa[1]/1){addErr=true}
+      } else if ((myV.length>0)&&(args[i+2]==2)){
+          var rx=new RegExp("^[\\w\.=-]+@[\\w\\.-]+\\.[a-z]{2,4}$");if(!rx.test(myV))addErr=true;
+      } else if ((myV.length>0)&&(args[i+2]==3)){ // date
+        var myMa=args[i+1].split("#"); var myAt=myV.match(myMa[0]);
+        if(myAt){
+          var myD=(myAt[myMa[1]])?myAt[myMa[1]]:1; var myM=myAt[myMa[2]]-1; var myY=myAt[myMa[3]];
+          var myDate=new Date(myY,myM,myD);
+          if(myDate.getFullYear()!=myY||myDate.getDate()!=myD||myDate.getMonth()!=myM){addErr=true};
+        }else{addErr=true}
+      } else if ((myV.length>0)&&(args[i+2]==4)){ // time
+        var myMa=args[i+1].split("#"); var myAt=myV.match(myMa[0]);if(!myAt){addErr=true}
+      } else if (myV.length>0&&args[i+2]==5){ // check this 2
+            var myObj1 = MM_findObj(args[i+1].replace(/\[\d+\]/ig,""));
+            if(myObj1.length)myObj1=myObj1[args[i+1].replace(/(.*\[)|(\].*)/ig,"")];
+            if(!myObj1.checked){addErr=true}
+      } else if (myV.length>0&&args[i+2]==6){ // the same
+            var myObj1 = MM_findObj(args[i+1]);
+            if(myV!=myObj1.value){addErr=true}
+      }
+    } else
+    if (!myObj.type&&myObj.length>0&&myObj[0].type=='radio'){
+          var myTest = args[i].match(/(.*)\[(\d+)\].*/i);
+          var myObj1=(myObj.length>1)?myObj[myTest[2]]:myObj;
+      if (args[i+2]==1&&myObj1&&myObj1.checked&&MM_findObj(args[i+1]).value.length/1==0){addErr=true}
+      if (args[i+2]==2){
+        var myDot=false;
+        for(var j=0;j<myObj.length;j++){myDot=myDot||myObj[j].checked}
+        if(!myDot){myErr+='* ' +args[i+3]+'\n'}
+      }
+    } else if (myObj.type=='checkbox'){
+      if(args[i+2]==1&&myObj.checked==false){addErr=true}
+      if(args[i+2]==2&&myObj.checked&&MM_findObj(args[i+1]).value.length/1==0){addErr=true}
+    } else if (myObj.type=='select-one'||myObj.type=='select-multiple'){
+      if(args[i+2]==1&&myObj.selectedIndex/1==0){addErr=true}
+    }else if (myObj.type=='textarea'){
+      if(myV.length<args[i+1]){addErr=true}
+    }
+    if (addErr){myErr+='* '+args[i+3]+'\n'; addErr=false}
+  }
+  if (myErr!=''){alert('The required information is incomplete or contains errors:\t\t\t\t\t\n\n'+myErr)}
+  document.MM_returnValue = (myErr=='');
+}
+//-->
+</script>
+<link href="nord.css" rel="stylesheet" type="text/css">
+</head>
+<body background="images/lblue076.jpg" leftmargin="0" topmargin="0" onLoad="MM_preloadImages('images/order_fw/images/order_nord_fw_r2_c7_f2.gif','images/order_fw/images/order_nord_fw_r3_c7_f2.gif','images/order_fw/images/order_nord_fw_r4_c7_f2.gif','images/order_fw/images/order_nord_fw_r5_c7_f2.gif','images/order_fw/images/order_nord_fw_r6_c7_f2.gif','images/order_fw/images/order_nord_fw_r7_c7_f2.gif','images/order_fw/images/order_nord_fw_r13_c3_f2.gif')">
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td valign="top"><div align="center">
+        <table width="550" border="1" cellpadding="0" cellspacing="0" bordercolor="#A5C3EF">
+          <tr>
+            <td valign="top"><table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="720">
+                <!-- fwtable fwsrc="order_nord_fw.png" fwbase="order_nord_fw.gif" fwstyle="Dreamweaver" fwdocid = "742308039" fwnested="1" -->
+                <tr> 
+                  <td><table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="720">
+                      <tr> 
+                        <td><table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="408">
+                            <tr> 
+                              <td><img name="order_nord_fw_r1_c1" src="images/order_fw/images/order_nord_fw_r1_c1.jpg" width="408" height="45" border="0" alt=""></td>
+                            </tr>
+                            <tr> 
+                              <td><img name="order_nord_fw_r4_c1" src="images/order_fw/images/order_nord_fw_r4_c1.jpg" width="408" height="65" border="0" alt=""></td>
+                            </tr>
+                            <tr> 
+                              <td><img name="order_nord_fw_r7_c1" src="images/order_fw/images/order_nord_fw_r7_c1.gif" width="408" height="21" border="0" alt=""></td>
+                            </tr>
+                          </table></td>
+                        <td><table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="136">
+                            <tr> 
+                              <td><img name="order_nord_fw_r1_c7" src="images/order_fw/images/order_nord_fw_r1_c7.gif" width="136" height="7" border="0" alt=""></td>
+                            </tr>
+                            <tr> 
+                              <td><a href="home.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('order_nord_fw_r2_c7','','images/order_fw/images/order_nord_fw_r2_c7_f2.gif',1);"><img name="order_nord_fw_r2_c7" src="images/order_fw/images/order_nord_fw_r2_c7.gif" width="136" height="17" border="0" alt=""></a></td>
+                            </tr>
+                            <tr> 
+                              <td><a href="profile.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('order_nord_fw_r3_c7','','images/order_fw/images/order_nord_fw_r3_c7_f2.gif',1);"><img name="order_nord_fw_r3_c7" src="images/order_fw/images/order_nord_fw_r3_c7.gif" width="136" height="21" border="0" alt=""></a></td>
+                            </tr>
+                            <tr> 
+                              <td><a href="product_services.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('order_nord_fw_r4_c7','','images/order_fw/images/order_nord_fw_r4_c7_f2.gif',1);"><img name="order_nord_fw_r4_c7" src="images/order_fw/images/order_nord_fw_r4_c7.gif" width="136" height="21" border="0" alt=""></a></td>
+                            </tr>
+                            <tr> 
+                              <td><a href="order.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('order_nord_fw_r5_c7','','images/order_fw/images/order_nord_fw_r5_c7_f2.gif',1);"><img name="order_nord_fw_r5_c7" src="images/order_fw/images/order_nord_fw_r5_c7.gif" width="136" height="22" border="0" alt=""></a></td>
+                            </tr>
+                            <tr> 
+                              <td><a href="approved_lenders.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('order_nord_fw_r6_c7','','images/order_fw/images/order_nord_fw_r6_c7_f2.gif',1);"><img name="order_nord_fw_r6_c7" src="images/order_fw/images/order_nord_fw_r6_c7.gif" width="136" height="22" border="0" alt=""></a></td>
+                            </tr>
+                            <tr> 
+                              <td><a href="contact.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('order_nord_fw_r7_c7','','images/order_fw/images/order_nord_fw_r7_c7_f2.gif',1);"><img name="order_nord_fw_r7_c7" src="images/order_fw/images/order_nord_fw_r7_c7.gif" width="136" height="21" border="0" alt=""></a></td>
+                            </tr>
+                          </table></td>
+                        <td><img name="order_nord_fw_r1_c9" src="images/order_fw/images/order_nord_fw_r1_c9.jpg" width="176" height="131" border="0" alt=""></td>
+                      </tr>
+                    </table></td>
+                </tr>
+                <tr> 
+                  <td><table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="720">
+                      <tr> 
+                        <td><img name="order_nord_fw_r8_c1" src="images/order_fw/images/order_nord_fw_r8_c1.jpg" width="408" height="23" border="0" alt=""></td>
+                        <td><img name="order_nord_fw_r8_c7" src="images/order_fw/images/order_nord_fw_r8_c7.gif" width="136" height="23" border="0" alt=""></td>
+                        <td><img name="order_nord_fw_r8_c9" src="images/order_fw/images/order_nord_fw_r8_c9.jpg" width="176" height="23" border="0" alt=""></td>
+                      </tr>
+                    </table></td>
+                </tr>
+                <tr> 
+                  <td><table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="720">
+                      <tr> 
+                        <td><img name="order_nord_fw_r9_c1" src="images/order_fw/images/order_nord_fw_r9_c1.jpg" width="232" height="56" border="0" alt=""></td>
+                        <td><img name="order_nord_fw_r9_c5" src="images/order_fw/images/order_nord_fw_r9_c5.gif" width="381" height="56" border="0" alt=""></td>
+                        <td><img name="order_nord_fw_r9_c11" src="images/order_fw/images/order_nord_fw_r9_c11.gif" width="107" height="56" border="0" alt=""></td>
+                      </tr>
+                    </table></td>
+                </tr>
+                <tr> 
+                  <td><table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="720">
+                      <tr> 
+                        <td valign="top"><table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="232">
+                            <tr> 
+                              <td><img name="order_nord_fw_r10_c1" src="images/order_fw/images/order_nord_fw_r10_c1.jpg" width="232" height="143" border="0" alt=""></td>
+                            </tr>
+                            <tr> 
+                              <td><img name="order_nord_fw_r11_c1" src="images/order_fw/images/order_nord_fw_r11_c1.gif" width="232" height="30" border="0" alt=""></td>
+                            </tr>
+                            <tr> 
+                              <td><img name="order_nord_fw_r12_c1" src="images/order_fw/images/order_nord_fw_r12_c1.gif" width="232" height="14" border="0" alt=""></td>
+                            </tr>
+                            <tr> 
+                              <td><table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="232">
+                                  <tr> 
+                                    <td><img name="order_nord_fw_r13_c1" src="images/order_fw/images/order_nord_fw_r13_c1.gif" width="40" height="28" border="0" alt=""></td>
+                                    <td><a href="order.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('order_nord_fw_r13_c3','','images/order_fw/images/order_nord_fw_r13_c3_f2.gif',1);"><img name="order_nord_fw_r13_c3" src="images/order_fw/images/order_nord_fw_r13_c3.gif" width="177" height="28" border="0" alt=""></a></td>
+                                    <td><img name="order_nord_fw_r13_c4" src="images/order_fw/images/order_nord_fw_r13_c4.gif" width="15" height="28" border="0" alt=""></td>
+                                  </tr>
+                                </table></td>
+                            </tr>
+                            <tr> 
+                              <td><img name="order_nord_fw_r14_c1" src="images/order_fw/images/order_nord_fw_r14_c1.gif" width="232" height="53" border="0" alt=""></td>
+                            </tr>
+                            <tr> 
+                              <td><table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="232">
+                                  <tr> 
+                                    <td bgcolor="#ffffff"></td>
+                                    <td><img name="order_nord_fw_r15_c2" src="images/order_fw/images/order_nord_fw_r15_c2.gif" width="211" height="108" border="0" alt=""></td>
+                                  </tr>
+                                </table></td>
+                            </tr>
+                            <tr> 
+                              <td bgcolor="#ffffff"></td>
+                            </tr>
+                          </table></td>
+                        <td valign="top" class="bg01"><table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="9">
+                            <tr> 
+                              <td valign="top"><img name="order_nord_fw_r10_c5" src="images/order_fw/images/order_nord_fw_r10_c5.gif" width="9" height="268" border="0" alt=""></td>
+                            </tr>
+                            <tr> 
+                              <td><img name="order_nord_fw_r15_c5" src="images/order_fw/images/order_nord_fw_r15_c5.gif" width="9" height="225" border="0" alt=""></td>
+                            </tr>
+                          </table></td>
+                        <td><table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="479">
+                            <tr> 
+                              <td><table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="479">
+                                  <tr> 
+                                    <td><table width="267" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                          <td><table width="255" cellspacing="0" cellpadding="0">
+                                              <tr> 
+                                                <td height="136" class="size12"><div align="right">
+                                                  <table width="152">
+                                                    <tr>
+                                                      <td><div align="right"><strong><font color="#336699">Online</font> <font color="#FF9900">Order
+                                                              Form</font></strong></div>
+                                                      </td>
+                                                    </tr>
+                                                  </table>
+                                                  <br>
+                                                  Please
+                                                    fill up the online order
+                                                    form below and click submit
+                                                    to send. We will reply to
+                                                    you as soon as possible after
+                                                    we have received your order.. </div></td>
+                                              </tr>
+                                            </table></td>
+                                        </tr>
+                                      </table></td>
+                                    <td><img name="order_nord_fw_r10_c8" src="images/order_fw/images/order_nord_fw_r10_c8.gif" width="212" height="173" border="0" alt=""></td>
+                                  </tr>
+                                </table></td>
+                            </tr>
+                            <tr> 
+                              <td><table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="479">
+                                  <tr> 
+                                    <td valign="top"><table width="362" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                          <td><form name="form1" method="post" action="order_action.asp">
+                                              <table cellpadding="3" cellspacing="0">
+                                                <tr bgcolor="#FFF4E6">
+                                                  <td class="size12">&nbsp;</td>
+                                                  <td>&nbsp;</td>
+                                                  <td colspan="3">&nbsp;</td>
+                                                </tr>
+                                                <tr> 
+                                                  <td class="size12"><div align="right">Company 
+                                                      Name</div></td>
+                                                  <td>&nbsp;</td>
+                                                  <td colspan="3"><input name="comp_name" type="text" class="size12" id="comp_name2">
+                                                    <span class="size10">*</span></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td bgcolor="#FFF4E6" class="size12"><div align="right">Company 
+                                                      Address</div></td>
+                                                  <td bgcolor="#FFF4E6">&nbsp;</td>
+                                                  <td colspan="3" bgcolor="#FFF4E6"><input name="comp_addr" type="text" class="size12" id="comp_addr">
+                                                    <span class="size10">*</span></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td class="size12"><div align="right">E-Mail</div></td>
+                                                  <td>&nbsp;</td>
+                                                  <td colspan="3"><input name="email" type="text" class="size12" id="email">
+                                                    <font color="#FF6600"><span class="size10">*</span></font></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td bgcolor="#FFF4E6" class="size12"><div align="right">Ordered 
+                                                      By</div></td>
+                                                  <td bgcolor="#FFF4E6">&nbsp;</td>
+                                                  <td colspan="3" bgcolor="#FFF4E6"><input name="order_by" type="text" class="size12" id="order_by"></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td class="size12"><div align="right">Phone 
+                                                      #</div></td>
+                                                  <td>&nbsp;</td>
+                                                  <td colspan="3"><table width="100%" cellpadding="0" cellspacing="0">
+                                                      <tr> 
+                                                        <td><input name="phone" type="text" class="size12" id="phone" size="10"></td>
+                                                        <td class="size12">Fax 
+                                                          # 
+                                                          <input name="fax" type="text" class="size12" id="fax" size="10"></td>
+                                                      </tr>
+                                                    </table></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td bgcolor="#FFF4E6" class="size12"><div align="right">Appraisal 
+                                                      Type</div></td>
+                                                  <td bgcolor="#FFF4E6">&nbsp;</td>
+                                                  <td colspan="3" bgcolor="#FFF4E6"><select name="appraisal_type" class="size12" id="appraisal_type">
+                                                      <option value="None">Please 
+                                                      Select One</option>
+                                                    </select></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td class="size12"><div align="right">Property 
+                                                      Type</div></td>
+                                                  <td>&nbsp;</td>
+                                                  <td colspan="3"><select name="property_type" class="size12" id="property_type">
+                                                      <option value="None">Please 
+                                                      Select One</option>
+                                                    </select></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td bgcolor="#FFF4E6" class="size12"><div align="right">Appraisal 
+                                                      Purpose:</div></td>
+                                                  <td bgcolor="#FFF4E6">&nbsp;</td>
+                                                  <td colspan="3" bgcolor="#FFF4E6"><select name="appraisal_purpose" class="size12" id="appraisal_purpose">
+                                                      <option value="None">Please 
+                                                      Select One</option>
+                                                    </select></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td class="size12"><div align="right">FHA 
+                                                      Case #</div></td>
+                                                  <td>&nbsp;</td>
+                                                  <td colspan="3"><input name="FHA_case" type="text" class="size12" id="FHA_case"> 
+                                                    <span class="size10"> if possible</span></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td bgcolor="#FFF4E6"><div align="right" class="size12">Loan 
+                                                      #</div></td>
+                                                  <td bgcolor="#FFF4E6">&nbsp;</td>
+                                                  <td colspan="3" bgcolor="#FFF4E6"><input name="loan_no" type="text" class="size12" id="loan_no"> 
+                                                    <span class="size10">if possible</span></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td class="size12"><div align="right">Subject 
+                                                      Address</div></td>
+                                                  <td>&nbsp;</td>
+                                                  <td colspan="3"><input name="st_addr" type="text" class="size12" id="st_addr"></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td bgcolor="#FFF4E6" class="size12"><div align="right">Subject 
+                                                      City</div></td>
+                                                  <td bgcolor="#FFF4E6">&nbsp;</td>
+                                                  <td colspan="3" bgcolor="#FFF4E6"><input name="subj_city" type="text" class="size12" id="subj_city"></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td class="size12"><div align="right">Country, 
+                                                      State, Zip</div></td>
+                                                  <td>&nbsp;</td>
+                                                  <td colspan="3"><table width="100%" cellpadding="0" cellspacing="0">
+                                                      <tr> 
+                                                        <td> <div align="left"> 
+                                                            <input name="country" type="text" class="size12" id="country" size="7">
+                                                          </div></td>
+                                                        <td> <div align="left"> 
+                                                            <input name="cstate" type="text" class="size12" id="cstate" size="7">
+                                                          </div></td>
+                                                        <td> <div align="left"> 
+                                                            <input name="zip" type="text" class="size12" id="zip" size="7">
+                                                          </div></td>
+                                                      </tr>
+                                                    </table></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td bgcolor="#FFF4E6" class="size12"><div align="right">Sales 
+                                                      Price <br>
+                                                      or Estimated Value</div></td>
+                                                  <td bgcolor="#FFF4E6">&nbsp;</td>
+                                                  <td colspan="3" bgcolor="#FFF4E6"><table width="100%" cellpadding="0" cellspacing="0">
+                                                      <tr> 
+                                                        <td width="51%"><input name="sales_price1" type="text" class="size12" id="sales_price1" size="15"></td>
+                                                        <td width="49%"><input name="sales_price2" type="text" class="size12" id="sales_price2" size="15"></td>
+                                                      </tr>
+                                                    </table></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td class="size12"><div align="right"># 
+                                                      Bedrooms</div></td>
+                                                  <td>&nbsp;</td>
+                                                  <td colspan="3"><table width="100%" cellpadding="0" cellspacing="0">
+                                                      <tr class="size10"> 
+                                                        <td width="33%"><div align="left">Bath<br>
+                                                            <input name="b_bath" type="text" class="size12" id="b_bath" size="7">
+                                                          </div></td>
+                                                        <td width="34%"><div align="left">Story<br>
+                                                            <input name="b_story" type="text" class="size12" id="b_story" size="7">
+                                                          </div></td>
+                                                        <td width="33%"><div align="left">Year 
+                                                            Built<br>
+                                                            <input name="b_year" type="text" class="size12" id="b_year" size="7">
+                                                          </div></td>
+                                                      </tr>
+                                                    </table></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td bgcolor="#FFF4E6" class="size12"><div align="right">Building 
+                                                      Area</div></td>
+                                                  <td bgcolor="#FFF4E6">&nbsp;</td>
+                                                  <td colspan="3" bgcolor="#FFF4E6"><table width="100%" cellpadding="0" cellspacing="0">
+                                                      <tr> 
+                                                        <td width="38%"><input name="build_area" type="text" class="size12" id="build_area" size="7"></td>
+                                                        <td width="62%" class="size10"><span class="size12">Lot 
+                                                          Size</span> <input name="lot_size" type="text" class="size12" id="lot_size" size="7"></td>
+                                                      </tr>
+                                                    </table></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td class="size12"><div align="right">Amenities</div></td>
+                                                  <td>&nbsp;</td>
+                                                  <td colspan="3"><table width="100%" cellpadding="0" cellspacing="0">
+                                                      <tr class="size10"> 
+                                                        <td><input name="checkbox1" type="checkbox" id="checkbox1" value="Pool">
+                                                          Pool</td>
+                                                        <td><input type="checkbox" name="checkbox2" value="SPA">
+                                                          SPA</td>
+                                                        <td><input type="checkbox" name="checkbox3" value="View">
+                                                          View</td>
+                                                      </tr>
+                                                      <tr> 
+                                                        <td colspan="3"><table width="100%">
+                                                            <tr> 
+                                                              <td width="51%"><div align="center"> 
+                                                                  <input type="checkbox" name="checkbox4" value="Guestrooms">
+                                                                  <span class="size10">Guestrooms</span></div></td>
+                                                              <td width="49%"><div align="center"> 
+                                                                  <input type="checkbox" name="checkbox5" value="Add-on">
+                                                                  <span class="size10"> 
+                                                                  Add-on</span></div></td>
+                                                            </tr>
+                                                          </table></td>
+                                                      </tr>
+                                                    </table></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td bgcolor="#FFF4E6" class="size12"><div align="right">Access</div></td>
+                                                  <td bgcolor="#FFF4E6">&nbsp;</td>
+                                                  <td colspan="3" bgcolor="#FFF4E6"><input name="access" type="text" class="size12" id="access"></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td class="size12"><div align="right">contact:(Name)</div></td>
+                                                  <td>&nbsp;</td>
+                                                  <td colspan="3"><input name="name_cont" type="text" class="size12" id="name_cont"></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td bgcolor="#FFF4E6" class="size12"><div align="right">Access 
+                                                      Contact<br>
+                                                      (Work Phone #)</div></td>
+                                                  <td bgcolor="#FFF4E6">&nbsp;</td>
+                                                  <td colspan="3" bgcolor="#FFF4E6"><input name="access_cont" type="text" class="size12" id="access_cont"></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td class="size12"><div align="right">Best 
+                                                      time to call:</div></td>
+                                                  <td>&nbsp;</td>
+                                                  <td colspan="3"><input name="best_time" type="text" class="size12" id="best_time"></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td bgcolor="#FFF4E6" class="size12"><div align="right">Method 
+                                                      of Appraisal<br>
+                                                      Fee Payment:</div></td>
+                                                  <td bgcolor="#FFF4E6">&nbsp;</td>
+                                                  <td colspan="3" bgcolor="#FFF4E6"><table width="100%" cellpadding="0" cellspacing="0">
+                                                      <tr> 
+                                                        <td width="29%"><input type="radio" name="radiobutton" value="COD"> 
+                                                          <span class="size10">COD</span></td>
+                                                        <td width="41%"><input type="radio" name="radiobutton" value="Bill Lender"> 
+                                                          <span class="size10">Bill 
+                                                          Lender</span></td>
+                                                        <td width="30%"><input type="radio" name="radiobutton" value="Others"> 
+                                                          <span class="size10">Ohers</span></td>
+                                                      </tr>
+                                                    </table></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td class="size12"><div align="right">Person 
+                                                      or Company<br>
+                                                      that pays appraisal fee:</div></td>
+                                                  <td>&nbsp;</td>
+                                                  <td colspan="3"><input name="per_app" type="text" class="size12" id="per_app" size="25"></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td bgcolor="#FFF4E6">&nbsp;</td>
+                                                  <td bgcolor="#FFF4E6">&nbsp;</td>
+                                                  <td colspan="3" bgcolor="#FFF4E6"><div align="left" class="size12">Comments 
+                                                      or Special Instruction</div></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td>&nbsp;</td>
+                                                  <td>&nbsp;</td>
+                                                  <td colspan="3"> <div align="left"> 
+                                                      <textarea name="comment" cols="30" rows="5" wrap="VIRTUAL" class="size12" id="comment"></textarea>
+                                                    </div></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td bgcolor="#FFF4E6">&nbsp;</td>
+                                                  <td bgcolor="#FFF4E6">&nbsp;</td>
+                                                  <td colspan="3" bgcolor="#FFF4E6">&nbsp;</td>
+                                                </tr>
+                                                <tr> 
+                                                  <td height="22">&nbsp;</td>
+                                                  <td>&nbsp;</td>
+                                                  <td width="67"><input name="Submit" type="submit" onClick="YY_checkform('form1','comp_name2','#q','0','Field \'COMPANY NAME\' is BLANK.','comp_addr','#q','0','Field \'COMPANY ADDRESS\' is BLANK.','email','#S','2','Field \'EMAIL\' is INVALID  or BLANK.');return document.MM_returnValue" value="Submit"></td>
+                                                  <td width="4">&nbsp;</td>
+                                                  <td width="137"><input type="reset" name="Submit2" value="Reset"></td>
+                                                </tr>
+                                                <tr> 
+                                                  <td colspan="5">&nbsp;</td>
+                                                </tr>
+                                              </table>
+                                            </form></td>
+                                        </tr>
+                                      </table></td>
+                                    <td valign="top" class="bg01"><table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="10">
+                                        <tr> 
+                                          <td><img name="order_nord_fw_r12_c10" src="images/order_fw/images/order_nord_fw_r12_c10.gif" width="10" height="102" border="0" alt=""></td>
+                                        </tr>
+                                        <tr> 
+                                          <td><img name="order_nord_fw_r15_c10" src="images/order_fw/images/order_nord_fw_r15_c10.gif" width="10" height="225" border="0" alt=""></td>
+                                        </tr>
+                                      </table></td>
+                                    <td valign="top"><table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="107">
+                                        <tr> 
+                                          <td><img name="order_nord_fw_r12_c11" src="images/order_fw/images/order_nord_fw_r12_c11.gif" width="107" height="102" border="0" alt=""></td>
+                                        </tr>
+                                        <tr> 
+                                          <td bgcolor="#ffffff"></td>
+                                        </tr>
+                                      </table></td>
+                                  </tr>
+                                </table></td>
+                            </tr>
+                          </table></td>
+                      </tr>
+                    </table></td>
+                </tr>
+                <tr> 
+                  <td><table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="720">
+                      <tr> 
+                        <td><img name="order_nord_fw_r17_c1" src="images/order_fw/images/order_nord_fw_r17_c1.gif" width="232" height="12" border="0" alt=""></td>
+                        <td><img name="order_nord_fw_r17_c5" src="images/order_fw/images/order_nord_fw_r17_c5.gif" width="312" height="12" border="0" alt=""></td>
+                        <td><img name="order_nord_fw_r17_c9" src="images/order_fw/images/order_nord_fw_r17_c9.gif" width="176" height="12" border="0" alt=""></td>
+                      </tr>
+                    </table></td>
+                </tr>
+              </table>
+</td>
+          </tr>
+        </table>
+        <p><font color="#00185A" size="1" face="Verdana, Arial, Helvetica, sans-serif">Home 
+          | Profile | Products &amp; Services | Order an Appraisal | Approved 
+          Lenders | Contact Us</font></p>
+      </div></td>
+  </tr>
+</table>
+</body>
+</html>

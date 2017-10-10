@@ -1,0 +1,250 @@
+/* basic elements */
+body {
+	background-color:#F5F1E6;
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+p {
+	margin-top: 0px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+.context {
+	color: #000000;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+.contextboldwhite {
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight:bold;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+.contextbold2 {
+	color: #000000;
+	font-size: 16px;
+	font-weight:bold;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+.contextbold18 {
+	color: #7F7514;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:bold;
+	font-family: Arial;
+	}
+.context2 {
+	color: #000000;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+.context2i {
+	color: #000000;
+	font-style:italic;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+.context11 {
+	color: #000000;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style:italic;
+	}
+.footer {
+	color: #000000;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+.contextBrown {
+	color: #744900;
+	font-weight:bold;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+.contextBrown14 {
+	color: #744900;
+	font-size: 16px;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	}
+h1 {
+	margin-top: 0px;
+	font-size: 17px;
+	font-weight: bold;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+
+
+
+
+/* specific divs///////////////////////////////////////////////////////////////////////////////////// */
+#container {
+	background-color:#F5F1E6;
+	width:800px;
+	height:auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom:0px;
+	}
+#menu {
+	background-color:#FFFFFF;
+	height: 30px;
+	width: 800px;
+	text-align: center;
+	margin-bottom:20px;
+	}
+#header {
+	background-color:#EFE8CC;
+	height: auto;
+	width: 800px;
+	text-align: center;
+	}
+#flashheader1 {
+	background-image:url(images/banner_home.jpg);
+	height: 207px;
+	width: 800px;
+	text-align: center;
+	}
+#flashheader2 {
+	background-image:url(images/banner_about.jpg);
+	height: 207px;
+	width: 800px;
+	text-align: center;
+	}
+#flashheader3 {
+	background-image:url(images/banner_services.jpg);
+	height: 207px;
+	width: 800px;
+	text-align: center;
+	}
+#flashheader4 {
+	background-image:url(images/banner_selections.jpg);
+	height: 207px;
+	width: 800px;
+	text-align: center;
+	}
+#flashheader5 {
+	background-image:url(images/banner_improvement.jpg);
+	height: 207px;
+	width: 800px;
+	text-align: center;
+	}
+#flashheader6 {
+	background-image:url(images/banner_faq.jpg);
+	height: 207px;
+	width: 800px;
+	text-align: center;
+	}
+#flashheader7 {
+	background-image:url(images/banner_contact.jpg);
+	height: 207px;
+	width: 800px;
+	text-align: center;
+	}
+#flashheader8 {
+	background-image:url(images/banner_gallery.jpg);
+	height: 207px;
+	width: 800px;
+	text-align: center;
+	}
+#content {
+	background-color:#EFE8CC;
+	height: auto;
+	width: 800px;
+	text-align: center;
+	}
+#footer {
+	height: auto;
+	width: 800px;
+	text-align: center;
+	}
+
+
+
+
+/*Text Colors*/
+
+
+
+
+a.textlink:link {
+	font-weight: normal;
+	text-decoration: none;
+	color: #7F7514;
+	font-size: 12px;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+a.textlink:visited {
+	font-weight: normal;
+	text-decoration: none;
+	color: #7F7514;
+	font-size: 12px;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+a.textlink:hover, a:active {
+	font-weight: normal;
+	text-decoration: underline;
+	color: #7F7514;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+a.textlink02:link {
+	font-weight: bold;
+	text-decoration: none;
+	color: #7F7514;
+	font-size: 12px;
+	font-family:Georgia;
+	}
+a.textlink02:visited {
+	font-weight: bold;
+	text-decoration: none;
+	color: #7F7514;
+	font-size: 12px;
+	font-family:Georgia;
+	}
+a.textlink02:hover, a:active {
+	text-decoration: underline;
+	color: #7F7514;
+	font-size: 12px;
+	font-family:Georgia;
+	}
+a.textlink03:link {
+	text-decoration: underline;
+	color: #000000;
+	font-size: 11px;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+a.textlink03:visited {
+	text-decoration: underline;
+	color: #000000;
+	font-size: 11px;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+a.textlink03:hover, a:active {
+	text-decoration: none;
+	color: #000000;
+	font-size: 11px;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+a.textlink04:link {
+	text-decoration: underline;
+	color: #744900;
+	font-size: 12px;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+a.textlink04:visited {
+	text-decoration: underline;
+	color: #744900;
+	font-size: 12px;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+a.textlink04:hover, a:active {
+	text-decoration: none;
+	color: #744900;
+	font-size: 12px;
+	font-family:Arial, Helvetica, sans-serif;
+	}

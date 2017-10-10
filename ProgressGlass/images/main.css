@@ -1,0 +1,213 @@
+.ltgreen {
+	COLOR: #7b9ac6
+}
+.dkgreen {
+	COLOR: #294118
+}
+.orange {
+	COLOR: #ff6100
+}
+.grey {
+	COLOR: #666666
+}
+H1 {
+	MARGIN-TOP: 1px; FONT-WEIGHT: bold; FONT-SIZE: 13px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-BOTTOM: 15px; COLOR: #294118; FONT-FAMILY: verdana, helvetica, sans-serif; LETTER-SPACING: -1px
+}
+H2 {
+	MARGIN-TOP: 1px; FONT-WEIGHT: bold; FONT-SIZE: 17px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-BOTTOM: 8px; COLOR: #294118; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+H3 {
+	MARGIN-TOP: 1px; FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-BOTTOM: 8px; COLOR: #294118; LINE-HEIGHT: 15px; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+P {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #333333; LINE-HEIGHT: 14px; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+.aboutus {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 15px 35px 15px 25px; COLOR: #333333; LINE-HEIGHT: 14px; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+.time {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 10px 15px 10px 10px; COLOR: #ffffff; LINE-HEIGHT: 14px; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+.footerb {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 10px 24px 4px 10px; COLOR: #999999; LINE-HEIGHT: 14px; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+.frontleft {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 8px 42px 8px 16px; COLOR: #333333; LINE-HEIGHT: 14px; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+.objectives {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 8px 75px 8px 22px; COLOR: #333333; LINE-HEIGHT: 14px; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+.frontedu {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 0px 20px 2px 9px; COLOR: #666666; LINE-HEIGHT: 12px; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+.frontleft3 {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 2px 9px; COLOR: #4f85c8; LINE-HEIGHT: 12px; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+.frontleftGREY {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 2px 9px; COLOR: #666666; LINE-HEIGHT: 12px; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+.quicklinks {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: -2px 20px 2px 4px; COLOR: #333333; LINE-HEIGHT: 15px; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+.frontleft2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: -2px 42px 2px 9px; COLOR: #4a86ce; LINE-HEIGHT: 15px; FONT-FAMILY: verdana, helvetica, sans-serif; LETTER-SPACING: 0px
+}
+.frontright {
+	MARGIN-TOP: 2px; FONT-WEIGHT: normal; FONT-SIZE: 11px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-BOTTOM: 6px; COLOR: #333333; LINE-HEIGHT: 12px; MARGIN-RIGHT: 42px; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+.frontnews {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 9px 18px 4px 16px; COLOR: #333333; LINE-HEIGHT: 16px; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+.bluehead {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 1px 42px 4px 22px; COLOR: #3f7dbc; LINE-HEIGHT: 16px; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+.aboutbox {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 1px 42px 4px 22px; COLOR: #333333; LINE-HEIGHT: 16px; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+.blueheadfront {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 9px 18px 4px 16px; COLOR: #333333; LINE-HEIGHT: 16px; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+.blueheadbold {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 10px 42px 8px 15px; COLOR: #ce2c31; LINE-HEIGHT: 14px; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+.package {
+	MARGIN-TOP: 1px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-BOTTOM: 4px; COLOR: #666666; LINE-HEIGHT: 14px; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+.host {
+	MARGIN-TOP: 1px; FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-BOTTOM: 1px; COLOR: #ffffff; LINE-HEIGHT: 14px; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+A.footer:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #666666; TEXT-DECORATION: none
+}
+A.footer:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #666666; TEXT-DECORATION: none
+}
+A.footer:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #666666; TEXT-DECORATION: none
+}
+A.footer:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #cccccc; TEXT-DECORATION: none
+}
+P.formlabel {
+	MARGIN-TOP: 1px; MARGIN-BOTTOM: 1px; LINE-HEIGHT: 100%
+}
+.first {
+	MARGIN-TOP: 0px
+}
+.mmenutext {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; MARGIN: 3px 4px 4px 8px; COLOR: #ffffff; FONT-FAMILY: Verdana, arial, helvetica, sans-serif
+}
+A.mmenulinkchosen:link {
+	FONT-WEIGHT: normal; COLOR: #000000; TEXT-DECORATION: none
+}
+A.mmenulinkchosen:visited {
+	FONT-WEIGHT: normal; COLOR: #000000; TEXT-DECORATION: none
+}
+A.mmenulinkchosen:active {
+	FONT-WEIGHT: normal; COLOR: #000000; TEXT-DECORATION: none
+}
+A.mmenulinkchosen:hover {
+	FONT-WEIGHT: normal; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.mmenulink:link {
+	FONT-WEIGHT: normal; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.mmenulink:visited {
+	FONT-WEIGHT: normal; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.mmenulink:active {
+	FONT-WEIGHT: normal; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.mmenulink:hover {
+	FONT-WEIGHT: normal; COLOR: #ce2c31; TEXT-DECORATION: none
+}
+OL {
+	MARGIN-TOP: 10px; FONT-WEIGHT: normal; FONT-SIZE: 11px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-BOTTOM: 1px; COLOR: #294118; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+OL.number {
+	LIST-STYLE-TYPE: decimal
+}
+OL.alpha {
+	LIST-STYLE-TYPE: lower-alpha
+}
+UL {
+	MARGIN-TOP: 1px; FONT-WEIGHT: normal; FONT-SIZE: 11px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-BOTTOM: 1px; MARGIN-LEFT: 1px; COLOR: #294118; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+LI {
+	MARGIN-TOP: 1px; FONT-WEIGHT: normal; FONT-SIZE: 11px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-BOTTOM: 1px; MARGIN-LEFT: 12px; COLOR: #294118; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+INPUT {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; FONT-WEIGHT: normal; MARGIN: 1px; BORDER-LEFT: #999999 1px solid; COLOR: #294118; BORDER-BOTTOM: #999999 1px solid; BACKGROUND-COLOR: #fffff0
+}
+ SELECT {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; MARGIN: 1px; BORDER-LEFT: #999999 1px solid; COLOR: #294118; BORDER-BOTTOM: #999999 1px solid; FONT-FAMILY: verdana, Arial, sans-serif; BACKGROUND-COLOR: #fffff0
+}
+SELECT.yeselect {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; MARGIN: 1px; BORDER-LEFT: #999999 1px solid; COLOR: #294118; BORDER-BOTTOM: #999999 1px solid; FONT-FAMILY: verdana, Arial, sans-serif; BACKGROUND-COLOR: #ffeaa8
+}
+ INPUT {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 10px; MARGIN: 1px; BORDER-LEFT: #999999 1px solid; COLOR: #000000; BORDER-BOTTOM: #999999 1px solid; FONT-FAMILY: verdana, Arial, sans-serif; BACKGROUND-COLOR: #fffff0
+}
+ TEXTAREA {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; MARGIN: 1px; BORDER-LEFT: #999999 1px solid; COLOR: #294118; BORDER-BOTTOM: #999999 1px solid; FONT-FAMILY: verdana, Arial, sans-serif; BACKGROUND-COLOR: #fffff0
+}
+ FORM {
+	MARGIN: 0em
+}
+A:link {
+	FONT-WEIGHT: normal; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #ce2c31; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-WEIGHT: normal; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #ce2c31; TEXT-DECORATION: none
+}
+A:active {
+	FONT-WEIGHT: normal; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #ce2c31; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: normal; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #666666; TEXT-DECORATION: underline
+}
+A.anchor:link {
+	MARGIN-TOP: 2px; FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-BOTTOM: 3px; COLOR: #4f85c8; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+A.anchor:visited {
+	MARGIN-TOP: 2px; FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-BOTTOM: 3px; COLOR: #4f85c8; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+A.anchor:active {
+	MARGIN-TOP: 2px; FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-BOTTOM: 3px; COLOR: #4f85c8; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+A.anchor:hover {
+	MARGIN-TOP: 2px; FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-BOTTOM: 3px; COLOR: #999999; FONT-FAMILY: verdana, helvetica, sans-serif
+}
+ TABLE.infoblock {
+	BORDER-RIGHT: #aebc81 1px dashed; BORDER-TOP: #aebc81 1px dashed; BORDER-LEFT: #aebc81 1px dashed; BORDER-BOTTOM: #aebc81 1px dashed
+}
+ TD.blockcell {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 15px; PADDING-TOP: 15px
+}
+.alink {
+	FONT-WEIGHT: bold; COLOR: #ffffff
+}
+.alinkCopy {
+	FONT-WEIGHT: bold; COLOR: #99cc00
+}
+.small {
+	FONT-SIZE: 9px; COLOR: #999999
+}
+TD.mmenu {
+	BACKGROUND: #333333
+}
+TD.mmenuchosen {
+	BACKGROUND: #666666
+}
+TABLE.border {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-LEFT-COLOR: #000000; BACKGROUND: #f7f7f7; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-COLOR: #000000; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #000000
+}
+TABLE.clear {
+	BORDER-RIGHT: 1px dashed; BORDER-TOP: 1px dashed; BORDER-LEFT: 1px dashed; BORDER-BOTTOM: 1px dashed
+}
+.greenheadbold {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #6699cc; LETTER-SPACING: -1px
+}
+.big {
+	MARGIN-TOP: 25px; FONT-WEIGHT: bold; FONT-SIZE: 11px; MARGIN-LEFT: 15px; COLOR: #666666
+}

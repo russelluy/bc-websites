@@ -1,0 +1,141 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #e0e0e0; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #888888; SCROLLBAR-3DLIGHT-COLOR: #888888; SCROLLBAR-ARROW-COLOR: #888888; SCROLLBAR-TRACK-COLOR: #e0e0e0; SCROLLBAR-DARKSHADOW-COLOR: #ffffff
+}
+TEXTAREA {
+	SCROLLBAR-FACE-COLOR: #e0e0e0; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #888888; SCROLLBAR-3DLIGHT-COLOR: #888888; SCROLLBAR-ARROW-COLOR: #888888; SCROLLBAR-TRACK-COLOR: #e0e0e0; SCROLLBAR-DARKSHADOW-COLOR: #ffffff
+}
+INPUT {
+	SCROLLBAR-FACE-COLOR: #e0e0e0; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #888888; SCROLLBAR-3DLIGHT-COLOR: #888888; SCROLLBAR-ARROW-COLOR: #888888; SCROLLBAR-TRACK-COLOR: #e0e0e0; SCROLLBAR-DARKSHADOW-COLOR: #ffffff
+}
+OPTION {
+	SCROLLBAR-FACE-COLOR: #e0e0e0; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #888888; SCROLLBAR-3DLIGHT-COLOR: #888888; SCROLLBAR-ARROW-COLOR: #888888; SCROLLBAR-TRACK-COLOR: #e0e0e0; SCROLLBAR-DARKSHADOW-COLOR: #ffffff
+}
+SELECT {
+	SCROLLBAR-FACE-COLOR: #e0e0e0; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #888888; SCROLLBAR-3DLIGHT-COLOR: #888888; SCROLLBAR-ARROW-COLOR: #888888; SCROLLBAR-TRACK-COLOR: #e0e0e0; SCROLLBAR-DARKSHADOW-COLOR: #ffffff
+}
+IFRAME {
+	SCROLLBAR-FACE-COLOR: #e0e0e0; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #888888; SCROLLBAR-3DLIGHT-COLOR: #888888; SCROLLBAR-ARROW-COLOR: #888888; SCROLLBAR-TRACK-COLOR: #e0e0e0; SCROLLBAR-DARKSHADOW-COLOR: #ffffff
+}
+TEXTAREA {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+INPUT {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+OPTION {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+SELECT {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ffa200; TEXT-DECORATION: none
+}
+A.data:link {
+	COLOR: #00539d; TEXT-DECORATION: none
+}
+A.data:active {
+	COLOR: #00539d; TEXT-DECORATION: none
+}
+A.data:visited {
+	COLOR: #00539d; TEXT-DECORATION: none
+}
+A.data:hover {
+	COLOR: #ffa200; TEXT-DECORATION: none
+}
+A.menu:link {
+	COLOR: #00539d; TEXT-DECORATION: none
+}
+A.menu:active {
+	COLOR: #00539d; TEXT-DECORATION: none
+}
+A.menu:visited {
+	COLOR: #00539d; TEXT-DECORATION: none
+}
+A.menu:hover {
+	COLOR: #ffa200; TEXT-DECORATION: none
+}
+A.txtsmser:link {
+	COLOR: #aaaaaa; TEXT-DECORATION: none
+}
+A.txtsmser:active {
+	COLOR: #aaaaaa; TEXT-DECORATION: none
+}
+A.txtsmser:visited {
+	COLOR: #aaaaaa; TEXT-DECORATION: none
+}
+A.txtsmser:hover {
+	COLOR: #ffa200; TEXT-DECORATION: none
+}
+A.txt:link {
+	COLOR: #00539d; TEXT-DECORATION: none
+}
+A.txt:active {
+	COLOR: #00539d; TEXT-DECORATION: none
+}
+A.txt:visited {
+	COLOR: #00539d; TEXT-DECORATION: none
+}
+A.txt:hover {
+	COLOR: #ffa200; TEXT-DECORATION: underline
+}
+A.txtsmbly:link {
+	COLOR: #00539d; TEXT-DECORATION: none
+}
+A.txtsmbly:active {
+	COLOR: #00539d; TEXT-DECORATION: none
+}
+A.txtsmbly:visited {
+	COLOR: #00539d; TEXT-DECORATION: none
+}
+A.txtsmbly:hover {
+	COLOR: #ffa200; TEXT-DECORATION: none
+}
+.data {
+	FONT-SIZE: 9px; COLOR: #00539d; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.blacksm {
+	FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.whitebi {
+	FONT-SIZE: 13px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.txtsmser {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.txtsmser11 {
+	FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.txtsmorang {
+	FONT-SIZE: 9px; COLOR: #fb9a00; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.txtsmbly {
+	FONT-SIZE: 10px; COLOR: #00539d; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.menu {
+	FONT-SIZE: 10px; COLOR: #00539d; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.txtser {
+	FONT-SIZE: 10px; COLOR: #aaaaaa; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.txt {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.txtblysm {
+	FONT-SIZE: 13px; COLOR: #003399; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.whsm {
+	FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.txtbigorang {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #fb9a00; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}

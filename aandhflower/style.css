@@ -1,0 +1,191 @@
+Body {
+	font-size: 11px;
+	font-family : Arial;
+	margin-top: 6px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	scrollbar-base-color: #F6F6F6F;
+	scrollbar-track-color: #F6F6F6;
+	scrollbar-face-color: #006DA5;
+	scrollbar-highlight-color: #388DB9;
+	scrollbar-3dlight-color: #016FA8;
+	scrollbar-darkshadow-color: #F6F6F6;
+	scrollbar-shadow-color: #006DA5;
+	scrollbar-arrow-color: #FFCC00;
+}
+
+form {margin: 0;padding: 0;
+}
+
+TD.topbg {
+	font-size: 11px;
+	font-family : Arial;
+	font-weight: bold;
+	color : #FFF;
+	background-image;
+	padding-bottom: 2px;
+}
+
+TD.yellow {
+	background-image: url('images/head2.jpg');
+}
+
+TD.barbg {
+	background-image: url('images/barbg.jpg');
+}
+
+TD.linebg {
+	background-image: url('images/rightdotbg.gif');
+}
+
+TD.rightdots {
+	background-image: url('images/rightdots.gif');
+}
+
+TD.tabledots {
+	background-image: url('images/rightdotbg.gif');
+}
+
+TD.buttonbg {
+	font-size: 12px;
+	font-family : Arial;
+	font-weight: bold;
+	color : #FFCC00;
+	background-image: url('images/buttonbg.jpg');
+}
+
+TD.footer {
+	font-size: 11px;
+	font-family : Arial;
+	color : #FFF;
+	background-image: url('images/basebar.jpg');
+}
+
+TD.barmid {
+	font-size: 11px;
+	font-family : Arial;
+	color : #999;
+	background-image: url('images/barmid.jpg');
+	padding-bottom: 2px;
+}
+
+TD.news {
+font-size: 11px;
+font-family: Verdana;
+color: #006DA5;
+font-weight : bold;
+}
+
+TABLE.cobtbl{
+background-color: #336699;
+}
+TD.cobhl{
+background-color: #E4EECC;
+}
+TD.cobll{
+background-color: #FFF7B8;
+color : #666666;
+}
+
+.textarea {
+font-size: 8pt;
+font-family: Tahoma;
+color: #FFF;
+border: 1px solid #A8B2AA;
+background-color: transparent;
+}
+
+TD.whitetext {
+	font-size: 11px;
+	font-family : Arial;
+	font-weight: bold;
+	color : #FFF;
+	}
+
+A:link {
+	color: #0066CC;
+	text-decoration: none;
+
+}
+
+A:visited {
+	color: #0066CC;
+	text-decoration: none;
+
+}
+
+A:active {
+	color: #0066CC;
+	text-decoration: none;
+
+}
+
+A:hover {
+	color: #FF9900;
+	text-decoration: none;
+
+}
+
+A.footer:link {
+	color: #FFCC00;
+	text-decoration: none;
+
+}
+
+A.footer:visited {
+	color: #FFF;
+	text-decoration: none;
+
+}
+
+A.footer:active {
+	color: #FFF;
+	text-decoration: none;
+
+}
+
+A.footer:hover {
+	color: #FF9900;
+	text-decoration: none;
+
+}
+
+TD {
+	font-size: 12px;
+	font-family : Arial;
+}
+
+P {
+	font-size: 12px;
+	font-family : Arial;
+}
+
+TD.smaller {
+	font-size: 11px;
+	font-family : Arial;
+	color : #000000;
+}
+
+P.smaller {
+	font-size: 11px;
+	font-family : Arial;
+	color : #000000;
+}
+
+TD.mincart {
+	font-size: 11px;
+	font-family : Arial;
+}
+
+P.mincart {
+	font-size: 11px;
+	font-family : Arial;
+}
+
+HR {
+	color : #0066CC;
+	height : 1px;
+}
+
+

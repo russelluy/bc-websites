@@ -1,0 +1,51 @@
+.newPortfolioTitle {
+	FONT-WEIGHT: bold
+}
+#borderBottom {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; BORDER-BOTTOM: #999999 1px dotted
+}
+#newPortfolioTable {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 11px; MARGIN-BOTTOM: 20px; BORDER-LEFT: 0px; WIDTH: 300px; BORDER-BOTTOM: 0px; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+#newPortfolioTable IMG {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+#shadsTable {
+	BORDER-RIGHT: #CCCCCC 1px solid; BORDER-TOP: #CCCCCC 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 11px; BORDER-LEFT: #CCCCCC 1px solid; COLOR: #1e6fb7; BORDER-BOTTOM: #CCCCCC 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-IMAGE: url(../images/bg2.gif)
+}
+#shadsTable .header {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #006699
+}
+#tableLeft A {
+	COLOR: #891E0E; TEXT-DECORATION: none
+}
+#tableLeft .menu {
+	BORDER-TOP: #CCCCCC 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 11px
+}
+INPUT {
+	FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+H2 {
+	FONT-SIZE: 12px; MARGIN-BOTTOM: 10px; COLOR: #006699; BORDER-BOTTOM: #999999 1px dotted
+}
+BODY {
+	MARGIN-TOP: 10px; BACKGROUND-IMAGE: url(../images/bg3.jpg); MARGIN-BOTTOM: 10px
+}
+#container {
+	BORDER-RIGHT: #dbdbdb 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #dbdbdb 1px solid; PADDING-LEFT: 0px; LEFT: 50%; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 10px; MARGIN-LEFT: -390px; BORDER-LEFT: #dbdbdb 1px solid; WIDTH: 780px; PADDING-TOP: 10px; BORDER-BOTTOM: #dbdbdb 1px solid; POSITION: absolute; BACKGROUND-IMAGE: url(../images/bg5.gif)
+}
+#footer {
+	FONT-SIZE: 9px; LEFT: 10px; WIDTH: 760px; COLOR: #999999; FONT-FAMILY: verdana, Geneva, Arial, Helvetica, sans-serif; POSITION: absolute; TEXT-ALIGN: center
+}
+#footer A {
+	COLOR: #999999; TEXT-DECORATION: none
+}
+.font_subHeade {
+	FONT-WEIGHT: bolder; FONT-SIZE: 22px; COLOR: #528348; FONT-FAMILY: Frutiger Linotype, Arial
+}
+.content {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.support {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #4e9fcd; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}

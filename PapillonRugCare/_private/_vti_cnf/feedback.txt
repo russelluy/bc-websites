@@ -1,0 +1,11 @@
+vti_encoding:SR|utf8-nl
+vti_timelastmodified:TR|29 Apr 2006 06:07:56 -0000
+vti_extenderversion:SR|4.0.2.8912
+vti_nexttolasttimemodified:TR|29 Apr 2006 06:07:56 -0000
+vti_author:SR|Russ
+vti_nosourcecontrol:SR|True
+vti_modifiedby:SR|Russ
+vti_timecreated:TR|29 Apr 2006 06:07:54 -0000
+vti_cacheddtm:TX|29 Apr 2006 06:07:56 -0000
+vti_filesize:IR|0
+vti_backlinkinfo:VX|index-5.html

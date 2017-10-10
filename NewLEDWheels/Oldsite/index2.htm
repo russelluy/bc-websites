@@ -1,0 +1,79 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Confidential Info</title>
+<SCRIPT LANGUAGE="JavaScript1.1">
+
+
+<!-- Begin
+function right(e) {
+if (navigator.appName == 'Netscape' && 
+(e.which == 3 || e.which == 2))
+return false;
+else if (navigator.appName == 'Microsoft Internet Explorer' && 
+(event.button == 2 || event.button == 3)) {
+alert("Sorry, you do not have permission to right click.");
+return false;
+}
+return true;
+}
+
+document.onmousedown=right;
+document.onmouseup=right;
+if (document.layers) window.captureEvents(Event.MOUSEDOWN);
+if (document.layers) window.captureEvents(Event.MOUSEUP);
+window.onmousedown=right;
+window.onmouseup=right;
+//  End -->
+</script>
+
+</head>
+
+<body bgcolor="#000000">
+<script language="javascript">
+<!--//
+function pasuser(form) {
+if (form.id.value=="first") { 
+if (form.pass.value=="foundation") {              
+location="index.html" 
+} else {
+alert("Invalid Password")
+}
+} else {  alert("Invalid UserID")
+}
+}
+//-->
+</script>
+
+<center>
+<table bgcolor="white" cellpadding="12" border="1">
+<tr><td colspan="2" bordercolor="#000000" bgcolor="#000000"><center>
+  <h1 style="margin-top: 0; margin-bottom: 0">
+  <font face="Arial Black" size="4" color="#FFFF00">LED Wheels Test</font></h1>
+  <h1 style="margin-top: 0; margin-bottom: 0"><span style="font-weight: 400"><b>
+  <font size="4" face="Arial Black" color="#FFFF00">Login
+Area</font></b></span></h1></center></td></tr>
+<tr><td bordercolor="#000000" bgcolor="#000000">
+  <h1 style="margin-top: 0; margin-bottom: 0"><span style="font-weight: 400"><b>
+  <font size="3" face="Arial Black" color="#FFFFFF">User ID:</font></b></span></h1></td>
+  <td bordercolor="#000000" bgcolor="#000000"><form name="login">
+    <input
+name="id" type="text" size="20"></td></tr>
+<tr><td bordercolor="#000000" bgcolor="#000000">
+  <h1 style="margin-top: 0; margin-bottom: 0"><span style="font-weight: 400"><b>
+  <font size="3" face="Arial Black" color="#FFFFFF">Password:</font></b></span></h1></td>
+  <td bordercolor="#000000" bgcolor="#000000">
+  <input name="pass"
+type="password" size="20"></td></tr>
+</table></center> 
+
+<p align="center">
+<input type="button" value="ENTER"
+onClick="pasuser(this.form)"></p>
+
+</body>
+
+</html>

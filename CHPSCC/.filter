@@ -1,0 +1,9 @@
+$h_X-Spam-Status: contains "SPAM"+++++++/dev/null
+$header_from: is "Wotch"+++++++/dev/null
+$header_subject: contains "Rhonda McClinton-Brown"+++++++/dev/null
+$header_subject: contains "SPAM"+++++++/dev/null
+$header_subject: contains "Wotch"+++++++/dev/null
+$header_subject: contains "candida"+++++++/dev/null
+$header_subject: contains "rhonda"+++++++/dev/null
+$header_subject: contains "rhonda@chpscc.org"+++++++/dev/null
+$message_body contains "Daily Ripple"+++++++/dev/null

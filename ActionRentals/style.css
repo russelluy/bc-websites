@@ -1,0 +1,37 @@
+td {
+	text-align: left;
+	vertical-align: top;
+	font-family:Tahoma;
+	font-size:11px;
+	color:#130E4A;
+	line-height:12px;
+}
+a {
+	text-decoration: none;
+	color:#98260E;
+}
+
+body { 	margin:0px;padding:0px;	}
+.copy{
+font-family:Tahoma;
+font-size:11px;
+color:#CBCACA;
+text-decoration:none
+}
+
+.blue {color:#2C7ABA}
+.dark_blue {color:#130E4A}
+.red {color:#98260E; text-decoration:none}
+.small {font-size:10px}
+
+.frame1 {color:#354256}
+
+
+
+
+a:hover{text-decoration:underline;}
+
+#under{text-decoration:underline;}
+.box{
+padding: 9px 9px 9px 9px;
+}

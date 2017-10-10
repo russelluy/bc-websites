@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery>
+	<album title="A&H Flowers" description="" lgPath="slideshow/gallery/">
+		<img src="header001.jpg.JPG" />
+		<img src="header002.jpg" />
+		<img src="header003.jpg" />
+		<img src="header004.jpg" />
+		<img src="header005.jpg" />
+		<img src="header006.jpg" />
+		<img src="header007.jpg" />
+		<img src="header008.jpg" />
+	</album>
+</gallery>

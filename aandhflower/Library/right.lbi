@@ -1,0 +1,28 @@
+<table width="120" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td class="news" align="center"><div align="left"><a href="../home.html"><img src="../images/homebutton.jpg" width="159" height="37" border="0"></a><br>
+          <br>
+          <img src="../images/news.jpg" width="8" height="14"> Our store<br />
+            <img src="../images/rightlinedots.gif" width="126" height="3" ALT=""/></div></td>
+      </tr>
+      <tr>
+        <td class="smaller"><div align="left">
+          <p>&middot; <a href="../categories.asp?cat=10">Favors</a><br />
+        &middot;<a href="../categories.asp?cat=12"> Impainting</a><br />
+        &middot; <a href="../categories.asp?cat=13">Wedding Flowers</a><br />
+        &middot; <a href="../categories.asp?cat=14">Accessories<br>
+        </a>&middot; <a href="../categories.asp?cat=15">Clearance</a><br />
+        &middot; <a href="../products.asp">All products</a></p>
+          </div></td>
+      </tr>
+      <tr>
+        <td class="news" align="center"><div align="left"><br>
+          <img src="../images/rightlinedots.gif" width="126" height="3" ALT=""/><br />
+           <img src="../images/news.jpg" width="8" height="14"> Shopping cart<br />
+            <img src="../images/rightlinedots.gif" width="126" height="3" ALT=""><br />
+            <!--#include file="../vsadmin/inc/incminicart.asp"-->
+        </div>
+        <p>&nbsp;</p>
+        </td>
+      </tr>
+    </table>

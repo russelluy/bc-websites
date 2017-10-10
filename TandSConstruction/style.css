@@ -1,0 +1,82 @@
+td {
+	text-align: left;
+	font-family:tahoma;
+	font-size:11px;
+	color:#5E5E5E;
+	line-height:12px;
+}
+a {	text-decoration: none;
+	color:#3D74A3;}
+
+body { 	margin:0px;padding:0px; background-color:#ffffff; background:url(images/bg.jpg)}
+
+.copy{
+font-family:tahoma;
+font-size:11px;
+color:#8E8E8E;
+}
+
+
+.gray {color:#5E5E5E; text-decoration:none}
+.blue {color:#3D74A3; text-decoration:none}
+
+.sm {font-size:10px}
+.u {text-decoration:underline}
+.t {text-transform:uppercase}
+.big {font-size:11px}
+
+.sub_form { width:199px;
+		height:19px;
+		font-family:tahoma;
+		font-size:11px;
+		border-style:;
+		border-width:;
+		border-color:#;
+		background-color:#;
+		color:#5E5E5E;
+		margin-left:0px;
+		margin-right:0px}
+		
+.form { width:202px;
+		height:18px;
+		font-family:tahoma;
+		font-size:12px;
+		border-style:solid;
+		border-width:1px;
+		border-color:#D8D8D8;
+		background-color:#E8E8E8;
+		color:#5E5E5E;
+		margin-left:0px;
+		margin-right:0px}
+		
+.textarea { width:202px;
+		height:178px;
+		font-family:tahoma;
+		font-size:12px;
+		border-style:solid;
+		border-width:1px;
+		border-color:#D8D8D8;
+		background-color:#E8E8E8;
+		color:#5E5E5E;
+		overflow:hidden;
+		margin-left:0px;
+		margin-right:0px}
+
+.rollover {scrollbar-face-color:#4A483E;
+		scrollbar-track-color:#FAF4D3;
+		scrollbar-arrow-color:#FAF4D3;
+		scrollbar-3Dlight-color:#FAF4D3;
+		scrollbar-base-color:#FAF4D3;
+		scrollbar-shadow-color:#FAF4D3;
+		scrollbar-darkshadow-color:#FAF4D3;
+		scrollbar-highlight-color:#FAF4D3;
+		}
+
+
+a:hover{text-decoration:underline;}
+.a:hover{text-decoration:none;}
+
+
+
+
+

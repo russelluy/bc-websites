@@ -1,0 +1,202 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Welcome to Arrow Glass &amp; Hardwood Floor</title>
+<style type="text/css">
+<!--
+body {
+	margin-top: 0px;
+	background-color: #000000;
+}
+.style1 {
+	color: #CCCCCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+.style2 {font-size: 10px}
+.style3 {font-size: 12px; }
+.style4 {font-size: 12; }
+.style5 {font-size: 10; }
+.style6 {font-size: 9px; }
+.style7 {font-size: 9; }
+.style8 {
+	font-size: 13px;
+	font-weight: bold;
+	color: #FDCA31;
+}
+.style9 {font-size: 13px; }
+-->
+</style></head>
+
+<body link="#FFFFFF" vlink="#FFFFFF" alink="#000080" background="images/bgbg.jpg">
+<div align="center">
+  <table width="768" cellspacing="0" cellpadding="0">
+    <tr>
+      <td background="images/bgtemp.jpg"><table width="100%"  cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="54%" align="left" valign="top"><table width="100%"  cellspacing="0" cellpadding="0">
+            <tr>
+              <td>
+                <p style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+                <p style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+                <p style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+                <p style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p style="margin-top: 0; margin-bottom: 0" align="right"><b><a href="http://www.arrowglassco.com/index.htm"><font face="Arial" size="2" color="#FDC72F">Home</font></a><font face="Arial" size="2" color="#FFFFFF">&nbsp;
+                + &nbsp;</font><a href="http://www.arrowglassco.com/services.htm"><font face="Arial" size="2" color="#FFFFFF">Services</font></a><font face="Arial" size="2" color="#FDC72F">
+                </font><font face="Arial" size="2" color="#FFFFFF">+&nbsp; <a href="http://www.arrowglassco.com/projects.htm">Projects</a>&nbsp;
+                +&nbsp; <a href="http://www.arrowglassco.com/contact.htm">Contact</a>&nbsp;
+                +&nbsp; <a href="http://www.arrowglassco.com/gallery.htm">Gallery</a></font></b></td>
+            </tr>
+            <tr>
+              <td>
+                <div align="left">
+                  <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                    <tr>
+                      <td width="100%">
+                        &nbsp;
+                        <div align="left">
+                          <table border="0" cellpadding="0" cellspacing="0" width="388">
+                            <tr class="style3">
+                              <td width="379" valign="top">
+                                <p class="style9" style="margin-top: 0; margin-bottom: 0" align="center"><font face="Arial" color="#FFFFFF">Arrow Glass Co. was founded in 1979<br>
+                                <br>
+                                We specialize in sales, installation and service of glass products as well as hardwood floors. Whether residential or comerical.<br>
+                                <br>
+                                We can provide these services round the clock. Our fleet of mobile trucks are standing by to provide you with our professional
+                                services.</font> <b><a href="policy.htm"><font face="Arial" color="#FDC72F">Our Policy</font></a></b><p class="style9" style="margin-top: 0; margin-bottom: 0" align="center">&nbsp;<p class="style9" style="margin-top: 0; margin-bottom: 0" align="center"></td>
+                              <td width="5" valign="top"></td>
+                            </tr>
+                            <tr>
+    <td width="100%" align="center">
+<select name="city" size="1" onchange="updateclock(this);"> 
+<option value="" selected>Local time</option>
+<option value="0">London GMT</option> 
+<option value="1">Rome</option>
+<option value="7">Bangkok</option>
+<option value="8">Hong Kong</option>
+<option value="9">Tokyo</option> 
+<option value="10">Sydney</option>
+<option value="12">Fiji</option>
+<option value="-10">Hawaii</option>
+<option value="-8">San Francisco</option> 
+<option value="-5">New York</option>
+<option value="-3">Buenos Aires</option>
+</select>
+
+</td>
+                            </tr>
+                            <tr>
+    <td width="100%" align="center">
+<font color="#FFFFFF">
+<script language="JavaScript">
+
+/*
+Drop Down World Clock- By JavaScript Kit (http://www.javascriptkit.com)
+Portions of code by Kurt @ http://www.btinternet.com/~kurt.grigg/javascript
+This credit notice must stay intact
+*/
+
+if (document.all||document.getElementById)
+document.write('<span id="worldclock" style="font:bold 16px Arial;"></span><br>')
+
+zone=0;
+isitlocal=true;
+ampm='';
+
+function updateclock(z){
+zone=z.options[z.selectedIndex].value;
+isitlocal=(z.options[0].selected)?true:false;
+}
+
+function WorldClock(){
+now=new Date();
+ofst=now.getTimezoneOffset()/60;
+secs=now.getSeconds();
+sec=-1.57+Math.PI*secs/30;
+mins=now.getMinutes();
+min=-1.57+Math.PI*mins/30;
+hr=(isitlocal)?now.getHours():(now.getHours() + parseInt(ofst)) + parseInt(zone);
+hrs=-1.575+Math.PI*hr/6+Math.PI*parseInt(now.getMinutes())/360;
+if (hr < 0) hr+=24;
+if (hr > 23) hr-=24;
+ampm = (hr > 11)?"PM":"AM";
+statusampm = ampm.toLowerCase();
+
+hr2 = hr;
+if (hr2 == 0) hr2=12;
+(hr2 < 13)?hr2:hr2 %= 12;
+if (hr2<10) hr2="0"+hr2
+
+var finaltime=hr2+':'+((mins < 10)?"0"+mins:mins)+':'+((secs < 10)?"0"+secs:secs)+' '+statusampm;
+
+if (document.all)
+worldclock.innerHTML=finaltime
+else if (document.getElementById)
+document.getElementById("worldclock").innerHTML=finaltime
+else if (document.layers){
+document.worldclockns.document.worldclockns2.document.write(finaltime)
+document.worldclockns.document.worldclockns2.document.close()
+}
+
+
+setTimeout('WorldClock()',1000);
+}
+
+window.onload=WorldClock
+//-->
+</script>
+
+<!--Place holder for NS4 only-->
+<ilayer id="worldclockns" width=100% height=35><layer id="worldclockns2" width=100% height=35 left=0 top=0 style="font:bold 16px Arial;"></layer></ilayer></font>
+</td>
+                            </tr>
+                            <tr class="style3">
+                              <td width="379" valign="top">
+                                <p align="center"></td>
+                              <td width="5" valign="top"></td>
+                            </tr>
+                          </table>
+                        </div>
+                        </td>
+                    </tr>
+                  </table>
+                </div>
+              </td>
+            </tr>
+          </table></td>
+          <td width="46%"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="310" height="480">
+            <param name="movie" value="ArrowSlideshow.swf">
+            <param name="quality" value="high">
+            <embed src="ArrowSlideshow.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="310" height="480"></embed>
+          </object></td>
+        </tr>
+      </table></td>
+    </tr>
+    <tr>
+      <td><div align="center">
+        <p class="style30 style1" style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+        <p class="style30 style1" style="margin-top: 0; margin-bottom: 0"><b>Copyright &copy; Arrow Glass &amp; Hardwood Floor 2006. All Rights Reserved</b></p>
+      </div></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,314 @@
+<gallery
+base = ""
+background = "#EFE8CC"
+banner = "#F0F0F0"
+text = "#000000"
+link = "#000000"
+alink = "#838383"
+vlink = "#D0008E"
+date = "">
+	<sitename>Gallery</sitename>
+	<photographer></photographer>
+	<contactinfo></contactinfo>
+	<email></email>
+	<security><![CDATA[]]> </security>
+
+<banner font = "Arial" fontsize = "3" color =  "#F0F0F0"> </banner>
+<thumbnail base ="thumbnails/" font = "Arial" fontsize = "4" color = "#F0F0F0" border = "0" rows = "3" col = "5"> </thumbnail> 
+<large base ="gallery/" font = "Arial" fontsize = "3" color = "#F0F0F0" border = "0"> </large>
+<images id = "images">
+
+<image
+path = "100.jpg"
+width = "265"
+height = "400"
+thumbpath = "100.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+	<meta name = "description"><![CDATA[                                ]]></meta>
+</image>
+
+
+<image
+path = "104.jpg"
+width = "400"
+height = "265"
+thumbpath = "104.jpg"
+thumbwidth = "75"
+thumbheight = "49">
+	<meta name = "description"><![CDATA[                                ]]></meta>
+</image>
+
+
+<image
+path = "106.jpg"
+width = "265"
+height = "400"
+thumbpath = "106.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "112.jpg"
+width = "265"
+height = "400"
+thumbpath = "112.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "117.jpg"
+width = "400"
+height = "265"
+thumbpath = "117.jpg"
+thumbwidth = "75"
+thumbheight = "49">
+</image>
+
+
+<image
+path = "120.jpg"
+width = "400"
+height = "285"
+thumbpath = "120.jpg"
+thumbwidth = "75"
+thumbheight = "53">
+</image>
+
+
+<image
+path = "129.jpg"
+width = "265"
+height = "400"
+thumbpath = "129.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "132.jpg"
+width = "265"
+height = "400"
+thumbpath = "132.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "135.jpg"
+width = "400"
+height = "265"
+thumbpath = "135.jpg"
+thumbwidth = "75"
+thumbheight = "49">
+</image>
+
+
+<image
+path = "141.jpg"
+width = "265"
+height = "400"
+thumbpath = "141.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "143.jpg"
+width = "265"
+height = "400"
+thumbpath = "143.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "71.jpg"
+width = "400"
+height = "285"
+thumbpath = "71.jpg"
+thumbwidth = "75"
+thumbheight = "53">
+</image>
+
+
+<image
+path = "85.jpg"
+width = "265"
+height = "400"
+thumbpath = "85.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "89.jpg"
+width = "259"
+height = "400"
+thumbpath = "89.jpg"
+thumbwidth = "48"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "91.jpg"
+width = "265"
+height = "400"
+thumbpath = "91.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+	<meta name = "description"><![CDATA[                                ]]></meta>
+</image>
+
+
+<image
+path = "American_Cherry.jpg"
+width = "286"
+height = "400"
+thumbpath = "American_Cherry.jpg"
+thumbwidth = "53"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "Bamboo_Horizontal_Carbonized.jpg"
+width = "265"
+height = "400"
+thumbpath = "Bamboo_Horizontal_Carbonized.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "Bamboo_Horizontal_Natural.jpg"
+width = "285"
+height = "400"
+thumbpath = "Bamboo_Horizontal_Natural.jpg"
+thumbwidth = "53"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "Bamboo_Vertical_Carbonized.jpg"
+width = "286"
+height = "400"
+thumbpath = "Bamboo_Vertical_Carbonized.jpg"
+thumbwidth = "53"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "Bamboo_vertical_Natural.jpg"
+width = "265"
+height = "400"
+thumbpath = "Bamboo_vertical_Natural.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "Brazilian_Cherry.jpg"
+width = "265"
+height = "400"
+thumbpath = "Brazilian_Cherry.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "Brazilian_Wallnut.jpg"
+width = "265"
+height = "400"
+thumbpath = "Brazilian_Wallnut.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "Maple.jpg"
+width = "286"
+height = "400"
+thumbpath = "Maple.jpg"
+thumbwidth = "53"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "Red_Oak.jpg"
+width = "286"
+height = "400"
+thumbpath = "Red_Oak.jpg"
+thumbwidth = "53"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "Santos_Mahogany.jpg"
+width = "285"
+height = "400"
+thumbpath = "Santos_Mahogany.jpg"
+thumbwidth = "53"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "Southern_Chesnut.jpg"
+width = "286"
+height = "400"
+thumbpath = "Southern_Chesnut.jpg"
+thumbwidth = "53"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "Wallnut.jpg"
+width = "285"
+height = "400"
+thumbpath = "Wallnut.jpg"
+thumbwidth = "53"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "Wenge.jpg"
+width = "265"
+height = "400"
+thumbpath = "Wenge.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "White_Oak.jpg"
+width = "286"
+height = "400"
+thumbpath = "White_Oak.jpg"
+thumbwidth = "53"
+thumbheight = "75">
+</image>
+
+</images>
+</gallery>

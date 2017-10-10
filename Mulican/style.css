@@ -1,0 +1,63 @@
+body{
+padding:0px;
+margin:0px;
+}
+.copy {
+	font-family: Tahoma;
+	font-size: 10px;
+	line-height: 12px;
+	color: #9D9C99;
+	text-decoration: none;
+}
+.tit {
+	font-family: Tahoma;
+	font-size: 12px;
+	line-height: 12px;
+	font-weight: bold;
+	color: #717161;
+}
+.link_1 {
+	font-family: Tahoma;
+	font-size: 11px;
+	line-height: 12px;
+	font-weight: bold;
+	color: #A7A677;
+}
+.text_1 {
+	font-family: Tahoma;
+	font-size: 10px;
+	line-height: 13px;
+	color: #717161;
+}
+.link_2 {
+	font-family: Tahoma;
+	font-size: 10px;
+	line-height: 13px;
+	color: #717161;
+	text-decoration:none;
+}.price {
+	font-family: Tahoma;
+	font-size: 10px;
+	line-height: 12px;
+	font-weight: bold;
+	color: #5E5E5E;
+}
+.form_1 {
+	font-family: Tahoma;
+	font-size: 10px;
+	line-height: 11px;
+	color: #717161;
+	height: 18px;
+	width: 154px;
+	border: 1px solid #C9CAAD;
+}
+.form_2 {
+	font-family: Tahoma;
+	font-size: 10px;
+	line-height: 11px;
+	color: #717161;
+	height: 48px;
+	width: 154px;
+	border: 1px solid #C9CAAD;
+	overflow:auto;
+}

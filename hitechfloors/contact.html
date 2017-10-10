@@ -1,0 +1,388 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Contact Page</title>
+<link href="styles.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.style2 {color: #d7d2a1}
+body {
+	margin-left: 0px;
+}
+.style13 {
+	font-family: Arial;
+	font-size: 10px;
+}
+.style15 {font-size: 11px}
+.style23 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #663300;
+}
+.style10 {	font-size: 11px;
+	font-family: Arial;
+}
+.style20 {font-size: 12px; color: #666666; }
+.style24 {font-size: 12px}
+.style25 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.style27 {font-size: 14px}
+.style36 {color: #CCCC99}
+-->
+</style>
+</head>
+<script src="scriptaculous/lib/prototype.js" type="text/javascript"></script>
+<script src="scriptaculous/src/effects.js" type="text/javascript"></script>
+<script type="text/javascript" src="fabtabulous.js"></script>
+<script type="text/javascript" src="validation.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script language="javascript" type="text/javascript">
+function form_data()
+{
+	var interesting=0;
+	if(document.edit_form.name.value==''||document.edit_form.email.value==''||document.edit_form.zip.value==''||document.edit_form.phone.value=='')
+	{
+		return false;
+	}
+	document.edit_form.FomedData.value='';
+	document.edit_form.FomedData.value+='Name : '+document.edit_form.name.value+'\n';
+	document.edit_form.FomedData.value+='Email : '+document.edit_form.email.value+'\n';
+	if(document.edit_form.address.value!='')
+	{
+		document.edit_form.FomedData.value+='Address : '+document.edit_form.address.value+'\n';
+	}
+	if(document.edit_form.city.value!='')
+	{
+		document.edit_form.FomedData.value+='City : '+document.edit_form.city.value+'\n';
+	}
+	if(document.edit_form.state.value!='')
+	{
+		document.edit_form.FomedData.value+='State : '+document.edit_form.state.value+'\n';
+	}
+	document.edit_form.FomedData.value+='Zip : '+document.edit_form.zip.value+'\n';
+	if(document.edit_form.country.value!='')
+	{
+		document.edit_form.FomedData.value+='Country : '+document.edit_form.country.value+'\n';
+	}
+	document.edit_form.FomedData.value+='Phone : '+document.edit_form.phone.value+'\n';
+	if(document.edit_form.free_guide.checked==true)
+	{
+		document.edit_form.FomedData.value+='FREE GUIDE : YES, GIVE ME MY FREE Flooring Inspiration Guide\n ';
+	}
+	for (i=0; i<document.edit_form.interests.length; i++)
+	{	
+		if (document.edit_form.interests[i].checked==true)
+		{
+			if(interesting==0)
+			{
+				document.edit_form.FomedData.value+="Interests: \n";
+				interesting=1;
+			}
+			document.edit_form.FomedData.value+="      "+document.edit_form.interests[i].value+"\n";
+		}
+	}
+	if(confirm('Please review your choices: \n'+document.edit_form.FomedData.value+'\n'))
+	{
+		return true;
+	}
+	return false;
+}
+</script>
+<body>
+<div id="container">
+  <div id="header">
+    <table width="100%" height="100" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="3%">&nbsp;</td>
+        <td width="60%"><img src="images/logo.jpg" width="120" height="98" align="left" /></td>
+        <td width="37%" align="right" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td align="right"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="100%" align="right"><a href="contact.html" target="_self"><img src="images/free_estimate.jpg" alt="Free Estimate" width="250" height="32" border="0" /></a></td>
+                </tr>
+            </table></td>
+          </tr>
+		  <tr>
+		    <td height="8"></td>
+          </tr>
+		  <tr>
+            <script language="JavaScript" type="text/javascript">
+			<!--
+			function setfocus() {
+			  document.forms[0].query.focus();
+			}
+			// -->
+			</script>
+            <form action="digg/search.php" method="get">
+              <td align="right"><span class="context style15"><small>
+                <input type="hidden" name="stpos" value="0" />
+                <input name="stype" type="hidden" id="stype" value="OR" />
+                </small>Search the site</span>
+                  <label>
+                  <input name="query" type="text" size="0" />
+                  <input name="Go" type="submit" class="context" id="Go" value="GO" />
+                  <img src="images/space.jpg" width="11" height="9" /></label></td>
+            </form>
+		    </tr>
+		  <tr>
+		    <td height="5"></td>
+          </tr>
+          <tr>
+            <td align="right" valign="bottom"><span class="style13"><a href="gallery.html" target="_self" class="textlink"> Gallery</a></span><span class="style13"><a href="gallery.html" target="_self" class="textlink"> </a></span><span class="style2">| </span><a href="faq.html" target="_self" class="textlink style10"> </a><span class="style23">Faq</span><span class="style23"><a href="faq.html" target="_self" class="textlink style10"> </a><span class="style2"> | </span> <span class="style10"><a href="contact.html" target="_self" class="textlink style10"> </a></span>Contact Us </span> <img src="images/space.jpg" width="11" height="9" /></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+  </div>
+  <div id="flashheader7"></div>
+
+  <div id="content">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="15"></td>
+      </tr>
+      <tr>
+        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="23%" valign="top"><table width="185" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td width="160"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td height="25" align="left"><a href="home.html" class="textlink">Home</a></td>
+                        </tr>
+                        <tr>
+                          <td align="left" bgcolor="#d7d2a1"><img src="images/spacer.gif" width="1" height="1" /></td>
+                        </tr>
+                        <tr>
+                          <td height="25" align="left"><a href="about.html" target="_self" class="textlink">About the Company</a></td>
+                        </tr>
+                        <tr>
+                          <td align="left" bgcolor="#d7d2a1"><img src="images/spacer.gif" width="1" height="1" /></td>
+                        </tr>
+                        <tr>
+                          <td height="25" align="left"><a href="services.html" target="_self" class="textlink">Hardwood Flooring Services</a></td>
+                        </tr>
+                        <tr>
+                          <td align="left" bgcolor="#d7d2a1"><img src="images/spacer.gif" width="1" height="1" /></td>
+                        </tr>
+                        <tr>
+                          <td height="25" align="left"><a href="selections.html" target="_self" class="textlink">Flooring Selections </a></td>
+                        </tr>
+                        <tr>
+                          <td align="left" bgcolor="#d7d2a1"><img src="images/spacer.gif" width="1" height="1" /></td>
+                        </tr>
+                        <tr>
+                          <td height="25" align="left"><a href="improvement.html" target="_self" class="textlink">Home Improvement Services </a></td>
+                        </tr>
+                        <tr>
+                          <td align="left" bgcolor="#d7d2a1"><img src="images/spacer.gif" width="1" height="1" /></td>
+                        </tr>
+                        <tr>
+                          <td height="25" align="left"><a href="gallery.html" target="_self" class="textlink">Gallery </a></td>
+                        </tr>
+                        <tr>
+                          <td align="left" bgcolor="#d7d2a1"><img src="images/spacer.gif" width="1" height="1" /></td>
+                        </tr>
+                        <tr>
+                          <td height="25" align="left"><a href="faq.html" target="_self" class="textlink">Frequently Asked Question </a></td>
+                        </tr>
+                        <tr>
+                          <td align="left" bgcolor="#d7d2a1"><img src="images/spacer.gif" width="1" height="1" /></td>
+                        </tr>
+                        <tr>
+                          <td height="25" align="left" valign="middle"><span class="style23">Contact Us</span> </td>
+                        </tr>
+                        <tr>
+                          <td align="left" bgcolor="#d7d2a1"><img src="images/spacer.gif" width="1" height="1" /></td>
+                        </tr>
+                        <tr>
+                          <td height="25" align="left" valign="middle"><span class="style23">Free Estimate</span> </td>
+                        </tr>
+                        <tr>
+                          <td align="left" bgcolor="#d7d2a1"><img src="images/spacer.gif" width="1" height="1" /></td>
+                        </tr>
+                        <tr>
+                          <td height="25" align="left" valign="middle"><span class="style23">Request Consultation</span> </td>
+                        </tr>
+                        <tr>
+                          <td align="left" bgcolor="#d7d2a1"><img src="images/spacer.gif" width="1" height="1" /></td>
+                        </tr>
+                        <tr>
+                          <td height="144" align="center" valign="bottom"><a href="http://www.diamondcertified.org/sfhitechfloors.html" target="_blank"><img src="images/logo2.jpg" alt="Diamond Certified" width="135" height="163" border="0" /></a></td>
+                        </tr>
+                        <tr>
+                          <td height="56" align="center"><a href="http://www.goodserviceguide.com/guide/" target="_blank"><img src="images/logo3.jpg" alt="Good Service Guide" width="135" height="56" border="0" /></a></td>
+                        </tr>
+                    </table></td>
+                    <td>&nbsp;</td>
+                  </tr>
+              </table></td>
+              <td width="3%" align="center" valign="top"><img src="images/bkline2.jpg" width="7" height="715" align="top" /></td>
+              <td width="74%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="78%" align="left"><strong><span class="style20"><u>CONTACT US &amp; SHOWROOM LOCATION </u></span><br />
+                          <br />
+                          <span class="contextbold18">Everything  you want,</span></strong><br />
+                          <br />
+                          <p>We have an extensive  selection of hardwoods and flooring options to choose from. </p>
+                      <ul>
+                            <li class="style25">Get Expert Advice</li>
+                        <li class="style25">Product Information</li>
+                        <li class="style25">Get to know your Installers</li>
+                      </ul>
+                      <p><span class="style36"> _________________________________________________________________________________</span></p>
+                      <form action="email_contact.php" method="post" name="edit_form" id="edit_form" target="GenericWindow" onsubmit="return form_data();">
+                            <input name="src" id="src" value="" type="hidden" />
+                            <input value="" id="fr_id" name="fr_id" type="hidden" />
+                            <table class="input-table" border="0" cellpadding="1" cellspacing="0">
+                              <tbody>
+                                <tr>
+                                  <td class="context">*</td>
+                                  <td class="context"><label for="name"><span class="style24">Name:</span></label></td>
+                                  <td class="input-control"><input style="background-color: rgb(255, 255, 160);" name="name" id="name" class="required" value="" size="50" type="text" /></td>
+                                </tr>
+                                <tr>
+                                  <td class="context">*</td>
+                                  <td class="context"><label for="email"><span class="style24">Email:</span></label></td>
+                                  <td class="input-control"><input style="background-color: rgb(255, 255, 160);" name="email" id="email" class="required validate-email" value="" size="50" type="text" /></td>
+                                </tr>
+                                <tr>
+                                  <td class="context">&nbsp;</td>
+                                  <td class="context"><label for="address"><span class="style24">Address:</span></label></td>
+                                  <td class="input-control"><input style="background-color: rgb(255, 255, 160);" name="address" id="address" value="" size="50" type="text" /></td>
+                                </tr>
+                                <tr>
+                                  <td class="context">&nbsp;</td>
+                                  <td class="context"><label for="city"><span class="style24">City:</span></label></td>
+                                  <td class="input-control"><input style="background-color: rgb(255, 255, 160);" name="city" id="city" size="25" type="text" /></td>
+                                </tr>
+                                <tr>
+                                  <td class="context">&nbsp;</td>
+                                  <td class="context"><label for="state"><span class="style24">State:</span></label></td>
+                                  <td class="input-control"><input style="background-color: rgb(255, 255, 160);" name="state" id="state" size="25" type="text" /></td>
+                                </tr>
+                                <tr>
+                                  <td class="context">*</td>
+                                  <td class="context"><label for="zip"><span class="style24">Zip / Postal Code:</span></label></td>
+                                  <td class="input-control"><input style="background-color: rgb(255, 255, 160);" name="zip" id="zip" class="required validate-digits" size="25" type="text" /></td>
+                                </tr>
+                                <tr>
+                                  <td class="context">&nbsp;</td>
+                                  <td class="context"><label for="country"><span class="style24">Country:</span></label></td>
+                                  <td class="input-control"><select style="background-color: rgb(255, 255, 160);" name="country" id="country">
+                                      <option value="" selected="selected">-- Select --</option>
+                                      <option value="us">United States</option>
+                                      <option value="ca">Canada</option>
+                                    </select>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="context">*</td>
+                                  <td class="context"><label for="phone"><span class="style24">Phone:</span></label></td>
+                                  <td class="input-control"><input style="background-color: rgb(255, 255, 160);" name="phone" id="phone" class="required validate-digits" value="" size="25" type="text" /></td>
+                                </tr>
+                                <tr>
+                                  <td colspan="2">&nbsp;</td>
+                                  <td class="input-control"><div style="float: left;">
+                                      <input value="True" id="free_guide" name="free_guide" checked="checked" type="checkbox" />
+                                    </div>
+                                      <div class="context style24" style="display: block;">Get inspired! Receive a <strong>FREE Flooring Inspiration Guide</strong> with your consultation request.</div></td>
+                                </tr>
+                                <tr>
+                                  <td height="109" class="input-required">&nbsp;</td>
+                                  <td class="input-label"><label for="interests" class="context style24">I am interested in: <br />
+                                    (Check all that apply):</label></td>
+                                  <td class="input-control"><table>
+                                      <tbody>
+                                        <tr>
+                                          <td valign="top" class="context"><input id="interests" name="interests" value="Carpeting" type="checkbox" />
+                                              <span class="style24">Carpeting<br />
+                                              <input id="interests" name="interests" value="Hardwood" type="checkbox" />
+                                                Hardwood<br />
+                                                <input id="interests" name="interests" value="Laminates" type="checkbox" />
+                                                Laminates<br />
+                                                <input id="interests" name="interests" value="Ceramic" type="checkbox" />
+                                                Ceramic</span><br /></td>
+                                          <td valign="top" class="context"><input id="interests" name="interests" value="Area_Rugs" type="checkbox" />
+                                              <span class="style24"> Rugs / Area Rugs<br />
+                                              <input id="interests" name="interests" value="Specialty_Products" type="checkbox" />
+                                                Specialty Products<br />
+                                                <input id="interests" name="interests" value="Window_Treatments" type="checkbox" />
+                                                Window Treatments</span><br /></td>
+                                        </tr>
+                                      </tbody>
+                                  </table></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                        <input name="id" value="" type="hidden" />
+                            <img src="images/spacer.gif" width="120" height="1" />
+                            <input name="submit" id="submit" value="Request a Flooring Consultation" class="submitBtn" type="submit" />
+                            <input type="hidden" name="FomedData" id="FomedData" />
+                          </form>
+							<script type="text/javascript">
+                                 new Validation('edit_form'); 
+                            </script>
+                      <p align="center" class="context style24"><span class="style36">_______________________________________________________________________________</span></p>
+                      <p align="center" class="context style24"><span class="style27">Hi Tech Hardwood Floors<br />
+                        3785 Balboa Street<br />
+                        San Francisco , CA 94121<br />
+                        Tel:&nbsp; 415-720-1612<br />
+                        Fax: 415-387-3827</span></p></td>
+                  </tr>
+              </table></td>
+            </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  
+  <div id="footer">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td bgcolor="#7F7514"><img src="images/spacer.gif" width="1" height="8" /></td>
+      </tr>
+      <tr>
+        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="16%"><table width="185" height="66" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td align="center" bgcolor="#7F7514"><span class="contextboldwhite">Request<br />
+                Consultation</span></td>
+              </tr>
+            </table></td>
+            <td width="84%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="3%"><img src="images/curve01.jpg" width="19" height="66" /></td>
+                <td width="97%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="center" class="contextBrown14">San Francisco<br />
+                      415-229-9660</td>
+                    <td align="center" bgcolor="#d7d3c6"><img src="images/spacer.gif" width="1" height="1" /></td>
+                    <td align="center" class="contextBrown14">Oakland/Alameda<br />
+                      510-920-9025</td>
+                    <td align="center" bgcolor="#d7d3c6"><img src="images/spacer.gif" width="1" height="1" /></td>
+                    <td align="center" class="contextBrown14">San Mateo<br />
+                      650-581-3026</td>
+                      <iframe src="" name="GenericWindow" id="GenericWindow" width="0" marginwidth="0" height="0" marginheight="0" scrolling="none" frameborder="0">
+                  </tr>
+                </table></td>
+                </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+  </div>
+</div>
+</iframe>
+</body>
+</html>

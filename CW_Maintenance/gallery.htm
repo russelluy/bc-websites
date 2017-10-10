@@ -1,0 +1,336 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<BGSOUND SRC=2.mid LOOP=99>
+<title>C.W. Building Maintenance</title>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	background-image: url(images/bg.jpg);
+}
+.style1 {	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #333333;
+}
+a:link {
+	color: #24286F;
+	text-decoration: none;
+}
+a:visited {
+	color: #24286F;
+	text-decoration: none;
+}
+a:hover {
+	color: #24286F;
+	text-decoration: underline;
+}
+a:active {
+	color: #24286F;
+	text-decoration: none;
+}
+.style8 {font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 9px; }
+-->
+</style>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+<script language="JavaScript">
+<!--
+
+function SymError()
+{
+  return true;
+}
+
+window.onerror = SymError;
+
+var SymRealWinOpen = window.open;
+
+function SymWinOpen(url, name, attributes)
+{
+  return (new Object());
+}
+
+window.open = SymWinOpen;
+
+//-->
+</script>
+
+<script language="javascript" type="text/javascript">
+<!--
+
+function showPreview(url, border, width, height, desc)
+{
+
+  border = typeof(border) == "undefined" ? 0 : border;
+  width = typeof(width) == "undefined" ? 100 : width;
+  height = typeof(height) == "undefined" ? 100 : height;
+  desc = typeof(desc) == "undefined" ? "" : desc;
+
+  document.getElementById("sp").innerHTML = '<img src="' + url + '" border="' + border + '" width="' + width + '" height="' + height + '"><br>' + desc;
+
+}
+
+
+function clearPreview()
+{
+
+  document.getElementById("sp").innerHTML = ".";
+
+}
+
+//-->
+</script>
+<script language="JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_nbGroup(event, grpName) { //v6.0
+var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])?args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) { img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr) for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+
+function MM_preloadImages() { //v3.0
+ var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+   var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+   if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+//-->
+</script>
+
+</head>
+
+<body onLoad="MM_preloadImages('images/b1_over.jpg','images/b2_over.jpg','images/b3_over.jpg')">
+<div align="center">
+  <table width="812" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="2"><table width="812" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="1" rowspan="7" bgcolor="#000000"><img src="images/Pixel.jpg" width="1" height="5"></td>
+            <td colspan="3" bgcolor="#000000"><img src="images/Pixel1.jpg" width="1" height="1"></td>
+            <td width="1" rowspan="7" bgcolor="#000000"><img src="images/Pixel.jpg" width="1" height="5"></td>
+          </tr>
+          <tr>
+            <td height="0" colspan="3" bgcolor="#000000">
+              <p style="margin-top: 0; margin-bottom: 0"><img src="images/C1.jpg" width="334" height="17"><a href="home.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','images/b1_over.jpg',1)"><img src="images/b1.jpg" name="Image17" width="104" height="17" border="0"></a><a href="aboutus.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','images/b2_over.jpg',1)"><img src="images/b2.jpg" name="Image18" width="121" height="17" border="0"></a><a href="contact.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image19','','images/b3_over.jpg',1)"><img src="images/b3.jpg" name="Image19" width="93" height="17" border="0"></a><img src="images/c2.jpg" width="160" height="17"></p>
+            </td>
+          </tr>
+          <tr>
+            <td height="19" colspan="3" bgcolor="#FFFFFF">
+              <p style="margin-top: 0; margin-bottom: 0"><img src="images/c3.jpg" width="812" height="116"></p>
+              <p style="margin-top: 0; margin-bottom: 0"><a href="services.htm"><img src="images/b4B.jpg" width="172" height="19" border="0"></a><a href="gallery.htm"><img src="images/b5B.jpg" width="162" height="19" border="0"></a><a href="faqs.htm"><img src="images/b6.jpg" width="159" height="19" border="0"></a><a href="invite.htm"><img src="images/b7.jpg" width="159" height="19" border="0"></a><img src="images/b8.jpg" width="160" height="19"></p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3" bgcolor="#FFFFFF" valign="top">
+              <p style="margin-top: 0; margin-bottom: 0" align="left"><img src="images/c4.jpg" width="812" height="119"></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="219" valign="top" bgcolor="#EBEBEB">
+              <p style="margin-top: 0; margin-bottom: 0"><img src="images/c7.jpg" width="219" height="66"></p>
+              <div align="center">
+                <center>
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td width="10%" valign="top" align="right"><font face="Arial" size="1"><b>MA</b></font></td>
+                    <td width="90%" valign="top"><p style="margin-top: 0; margin-bottom: 0" align="left"><font face="Arial" size="1"><b>INTENANCE IN:</b></font></td>
+                  </tr>
+                  <center>
+                    <tr>
+                      <td width="10%" valign="top" align="right"><img border="0" src="images/bullet.jpg" width="10" height="10"></td>
+                      <td width="90%" valign="top" align="left"><p style="margin-top: 0; margin-bottom: 0"><font face="Arial" size="1">BIO-TECH LABORATORIES</font></td>
+                    </tr>
+                    <tr>
+                      <td width="10%" valign="top" align="right"><img border="0" src="images/bullet.jpg" width="10" height="10"></td>
+                      <td width="90%" valign="top" align="left"><p style="margin-top: 0; margin-bottom: 0"><font face="Arial" size="1">HOSPITALS TILES</font></td>
+                    </tr>
+                    <tr>
+                      <td width="10%" valign="top" align="right"><p style="margin-top: 0; margin-bottom: 0"><img border="0" src="images/bullet.jpg" width="10" height="10"></td>
+                      <td width="90%" valign="top" align="left"><p style="margin-top: 0; margin-bottom: 0"><font face="Arial" size="1">CONFERENCE ROOM CARPETS</font></td>
+                    </tr>
+                    <tr>
+                      <td width="10%" valign="top" align="right"><p style="margin-top: 0; margin-bottom: 0"><img border="0" src="images/bullet.jpg" width="10" height="10"></td>
+                      <td width="90%" valign="top" align="left"><p style="margin-top: 0; margin-bottom: 0"><font face="Arial" size="1">HOTEL LOBBY MARBLE FLOORS</font></td>
+                    </tr>
+                    <tr>
+                      <td width="10%" valign="top" align="right"><p style="margin-top: 0; margin-bottom: 0"><img border="0" src="images/bullet.jpg" width="10" height="10"></td>
+                      <td width="90%" valign="top" align="left"><p style="margin-top: 0; margin-bottom: 0"><font face="Arial" size="1">CARPET/TILED HALLWAYS</font></td>
+                    </tr>
+                    <tr>
+                      <td width="10%" valign="top" align="right"><p style="margin-top: 0; margin-bottom: 0"><img border="0" src="images/bullet.jpg" width="10" height="10"></td>
+                      <td width="90%" valign="top" align="left"><p style="margin-top: 0; margin-bottom: 0"><font face="Arial" size="1">BUILDING WINDOWS</font></td>
+                    </tr>
+                    <tr>
+                      <td width="10%" valign="top" align="right"><p style="margin-top: 0; margin-bottom: 0"><img border="0" src="images/bullet.jpg" width="10" height="10"></td>
+                      <td width="90%" valign="top" align="left"><p style="margin-top: 0; margin-bottom: 0"><font face="Arial" size="1">COMMON AREAS</font></td>
+                    </tr>
+                    <tr>
+                      <td width="10%" valign="top" align="right"><p style="margin-top: 0; margin-bottom: 0"><img border="0" src="images/bullet.jpg" width="10" height="10"></td>
+                      <td width="90%" valign="top" align="left"><p style="margin-top: 0; margin-bottom: 0"><font face="Arial" size="1">TOILETS/WALLS/DOORS</font></td>
+                    </tr>
+                    <tr>
+                      <td width="10%" valign="top" align="right"><p style="margin-top: 0; margin-bottom: 0"><img border="0" src="images/bullet.jpg" width="10" height="10"></td>
+                      <td width="90%" valign="top" align="left"><p style="margin-top: 0; margin-bottom: 0"><font face="Arial" size="1">COLLEGES</font></td>
+                    </tr>
+                    <tr>
+                      <td width="10%" valign="top" align="right"><p style="margin-top: 0; margin-bottom: 0"><img border="0" src="images/bullet.jpg" width="10" height="10"></td>
+                      <td width="90%" valign="top" align="left"><p style="margin-top: 0; margin-bottom: 0"><font face="Arial" size="1">RESTAURANTS</font></td>
+                    </tr>
+                  </center>
+                </table>
+</div>
+            </td>
+            <td colspan="2" valign="top" bgcolor="#FFFFFF"><table width="591"  cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="291" align="left" valign="top"><div align="left">
+				
+				
+				<blockquote> 
+              <table width="177" height="130" border="0" cellpadding="0" cellspacing="15">
+                <tr> 
+                  <td width="257"><div align="justify">
+                      <div align="center">
+                        <table width="177" height="177" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td width="177">
+
+
+                              <p align="center">
+
+<span id="sp" class="txt"><font face="Arial" size="1">SAMPLE IMAGES HERE</font></span>
+
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                  </div></td>
+                </tr>
+              </table>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+				</blockquote>
+				
+				
+                </div>
+                  </td>
+                <td width="272" align="left" valign="top">
+				      <ul type="square">
+
+
+<li>
+  <p style="margin-top: 0; margin-bottom: 0"><span class="style7"><a href="sample1.htm" onMouseOver='showPreview("images/pics/photo1.jpg", 0, 180, 216, "Sample 1b");' onMouseOut="clearPreview();" class="ln"><font size="2"></font><font face="Arial" size="1">SAMPLE 1</font></a></span><font face="Arial">
+<li>
+<p style="margin-top: 0; margin-bottom: 0"><span class="style7"><a href="sample2.htm" onMouseOver='showPreview("images/pics/photo2.jpg", 0, 180, 216, "Sample 2b");' onMouseOut="clearPreview();" class="ln"><font face="Arial" size="1">SAMPLE 2</font></a></span>
+<li>
+<p style="margin-top: 0; margin-bottom: 0"><span class="style7"><a href="sample3.htm" onMouseOver='showPreview("images/pics/photo3.jpg", 0, 180, 216, "Sample 3b");' onMouseOut="clearPreview();" class="ln"><font face="Arial" size="1">SAMPLE 3</font></a></span><font face="Arial"> </font>
+<li>
+<p style="margin-top: 0; margin-bottom: 0"><span class="style7"><a href="sample4.htm" onMouseOver='showPreview("images/pics/photo4.jpg", 0, 180, 216, "Sample 4b");' onMouseOut="clearPreview();" class="ln"><font face="Arial" size="1">SAMPLE 4</font></a></span>
+<br>
+
+</ul>
+      
+				
+				 </td>
+                <td width="26">&nbsp;</td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" bgcolor="#EBEBEB">&nbsp;</td>
+            <td width="432" valign="top" bgcolor="#FFFFFF">
+              <div align="center">
+                <center>
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td width="3%"></td>
+                    <td width="97%" valign="top" align="left">
+                      <p style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+                      <p style="margin-top: 0; margin-bottom: 0"><font face="Arial" size="1">WE
+                      WOULD REALLY APPRECIATE THE OPPORTUNITY TO PROVIDE
+                      YOU&nbsp; AN EXCELLENT SERVICE. <a href="invite.htm">PLEASE REQUEST
+                      FOR A PROPOSAL.</a></font></td>
+                  </tr>
+                </table>
+                </center>
+              </div>
+            </td>
+            <td width="161" valign="top" bgcolor="#FFFFFF"><div align="right"><img src="images/c6.jpg" width="160" height="64"></div></td>
+          </tr>
+          <tr>
+            <td colspan="3" align="left" valign="top" bgcolor="#FFFFFF"><img src="images/c5.jpg" width="812" height="37"></td>
+          </tr>
+      </table></td>
+    </tr>
+    <tr bgcolor="#000000">
+      <td><div align="center"><img src="images/Pixel1.jpg" width="1" height="1"></div></td>
+    </tr>
+    <tr>
+      <td height="12"><p align="center" class="style1">&copy; Copyright 2006 C.W.Building Maintenance. All rights reserved. Powered by <a href="http://www.beancastle.com">Bean Castle</a> </td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+To enable searching, you will have to initiate indexing of the site once it is installed on the actual server.
+
+
+STEP 1:  modify config.php
+
+The search engine is found under the folder digg.  Inside this directory, edit the file named config.php
+
+The following variables needs to be assigned the actual address of the site.  Currently it is set to point to a local host setup as we were testing it. 
+
+
+$base_url = " http://localhost/beancastle.net/hitech%20web/"; 
+
+
+ 
+# Starting URL (used by spider)
+
+$start_url = array(
+
+"http://localhost/beancastle.net/hitech%20web/ ",
+
+);
+
+ 
+
+# Spider will index only files from these servers
+
+$allow_url = array(
+
+"http://localhost/beancastle.net/hitech%20web/ ",
+
+);  
+
+
+
+STEP 2:  Start indexing
+
+To start indexing the site, use your browser to access the ff. address (replace www.yourwebsite.com with the actual URL):  http://www.yourwebsite.com/digg/spider.php 
+This will automatically start the indexing process.  Once done, you can now use the search function.
+
+
+NOTE:  This Zipped copy of the beancastle.zip site is not yet indexed… so please run the reindexing procedure
